@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Cafe24Decobox';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/Cafe24Decobox.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header1 {
+    text-align: right;
+    margin: 10px;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    position: relative;
+    top: 10px;
+  }
+  
+
+.searchIcon {
+    width: 15px;
+    pointer-events: none;
+}
+
+.header2 {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Cafe24Decobox';
+    margin: 0;
+    position: relative;
+    top: -85px;
+}
+
+.header2-1 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Cafe24Decobox';
+    margin: 0;
+    position: relative;
+    top: -25px;
+}
+
+.rectangle {
+    position: absolute;
+    width: 1635px;
+    height: 65px;
+    background: #D8B4F8;
+    margin: 0;
+    top: 150px;
+    left: -100px;
+}
