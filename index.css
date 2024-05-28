@@ -17,27 +17,20 @@
     margin: 10px;
 }
 
-.container-fluid {
+.container-fluid{
     display: flex;
     justify-content: flex-end;
-    margin: 0;
     position: relative;
-    top: 10px;
-  }
-  
-
-.searchIcon {
-    width: 15px;
-    pointer-events: none;
+    top: -150px;
 }
+
 
 .header2 {
     text-align: center;
     font-size: 80px;
     font-family: 'Cafe24Decobox';
-    margin: 0;
     position: relative;
-    top: -85px;
+    top: -50px;
 }
 
 .header2-1 {
