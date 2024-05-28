@@ -5,49 +5,69 @@
     font-style: normal;
 }
 
-.body {
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+body{
+    background-color: #F8E8EE;
 }
 
 .header1 {
-    text-align: right;
-    margin: 10px;
-}
-
-.container-fluid{
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    top: -150px;
-}
-
-
-.header2 {
     text-align: center;
+    color: #FF8DC7;
     font-size: 80px;
     font-family: 'Cafe24Decobox';
     position: relative;
-    top: -50px;
+    top: 0px;
 }
 
-.header2-1 {
+.header1-1 {
     text-align: center;
+    color: #FBA1B7;
     font-size: 20px;
     font-family: 'Cafe24Decobox';
     margin: 0;
     position: relative;
-    top: -25px;
+    top: -22px;
+    left: 0px;
 }
 
-.rectangle {
-    position: absolute;
-    width: 1635px;
-    height: 65px;
-    background: #D8B4F8;
-    margin: 0;
-    top: 150px;
-    left: -100px;
+.d-flex{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    width: 400px;
+    height: 40px;
+    top: -100px;
+    left: 990px;
 }
+
+.header2{
+    font-size: large;
+    width: 100px;
+    margin: 10px;
+    position: relative;
+    top: -5px;
+}
+
+.header2:hover{
+    color: #6420AA;
+}
+
+.navbar{
+    position: relative;
+    top: -35px;
+}
+
+.navbar-brand{
+    margin: 0 10px;
+    position: relative;
+    left: 430px;
+}
+
+ul{
+    position: relative;
+    left: 450px;
+}
+
+li{
+    margin: 0 10px;
+}
+
