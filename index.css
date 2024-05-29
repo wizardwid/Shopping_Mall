@@ -12,10 +12,10 @@ body{
 .header1 {
     text-align: center;
     color: #FF8DC7;
-    font-size: 80px;
+    font-size: 70px;
     font-family: 'Cafe24Decobox';
     position: relative;
-    top: 0px;
+    top: 10px;
 }
 
 .header1-1 {
@@ -30,13 +30,12 @@ body{
 }
 
 .d-flex{
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
+    margin: 10px;
     width: 400px;
     height: 40px;
-    top: -100px;
-    left: 990px;
+    position: relative;
+    top: -115px;
+    left: 1000px;
 }
 
 .header2{
@@ -45,26 +44,27 @@ body{
     margin: 10px;
     position: relative;
     top: -5px;
+    left: 20px;
 }
 
 .header2:hover{
     color: #6420AA;
-}
+} 
 
 .navbar{
     position: relative;
-    top: -35px;
+    top: -50px;
 }
 
 .navbar-brand{
     margin: 0 10px;
     position: relative;
-    left: 430px;
+    left: 325px;
 }
 
 ul{
     position: relative;
-    left: 450px;
+    left: 325px;
 }
 
 li{
