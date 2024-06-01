@@ -1,32 +1,53 @@
 @font-face {
-    font-family: 'Cafe24Decobox';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/Cafe24Decobox.woff2') format('woff2');
-    font-weight: normal;
+    font-family: 'TTHakgyoansimMulgyeolB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimMulgyeolB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KimjungchulMyungjo-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulMyungjo-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTHakgyoansimMulgyeolB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimMulgyeolB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YClover-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/YClover-Bold.woff2') format('woff2');
+    font-weight: 700;
     font-style: normal;
 }
 
 body{
-    background-color: #F8E8EE;
+    background-color: white;
 }
 
 .header1 {
     text-align: center;
-    color: #FF8DC7;
+    color: black;
     font-size: 70px;
-    font-family: 'Cafe24Decobox';
+    font-family: 'TTHakgyoansimMulgyeolB';
     position: relative;
     top: 10px;
 }
 
 .header1-1 {
     text-align: center;
-    color: #FBA1B7;
+    color: #1f1e1e;
     font-size: 20px;
-    font-family: 'Cafe24Decobox';
+    font-family: 'KimjungchulMyungjo-Bold';
     margin: 0;
     position: relative;
-    top: -22px;
-    left: 0px;
+    top: -15px;
+    left: 3px;
 }
 
 .d-flex{
@@ -34,8 +55,8 @@ body{
     width: 400px;
     height: 40px;
     position: relative;
-    top: -115px;
-    left: 1000px;
+    top: -135px;
+    left: 990px;
 }
 
 .header2{
@@ -48,12 +69,12 @@ body{
 }
 
 .header2:hover{
-    color: #6420AA;
+    color: #757178;
 } 
 
 .navbar{
     position: relative;
-    top: -50px;
+    top: -45px;
 }
 
 .navbar-brand{
@@ -63,11 +84,27 @@ body{
 }
 
 ul{
+    font-family: 'YClover-Bold';
     position: relative;
     left: 325px;
 }
 
 li{
+    font-family: 'TTHakgyoansimMulgyeolB';
     margin: 0 10px;
 }
 
+.slider {
+    width: 100%;                                 
+    overflow: hidden;
+    position: relative;
+}
+.slide {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+img {
+    width: 1600PX;
+    height: 400px;                                                        
+}
