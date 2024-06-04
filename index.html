@@ -8,31 +8,21 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
   </head>
-  <body>
+  <body style="overflow-x: hidden">
     <header>
       <div class="container">
-        <div class="row">
-          <div class="">
-            <div class="header1">구개블리
-              <div class="header1-1">명품 옷 & 신발 & 지갑 & 가방 & 소품</div>
-            </div>
-          </div>
-        </div>
+        <div class="header1">구개블리</div>
       </div>
       <div class="container">
-        <div class="row">
-          <div class="col-lg-3">
-             <form class="d-flex" role="search">
-                <b class="header2">로그인</b>
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-secondary custom-btn" type="submit">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-                    </svg>
-                </button>
-              </form>
-          </div>
-        </div>
+        <form class="d-flex" role="search">
+          <b class="header2">로그인</b>
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-secondary custom-btn" type="submit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+              </svg>
+          </button>
+        </form>
       </div>
     </header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -79,13 +69,13 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="Images/의류배너1.jpeg" class="d-block w-100" alt="...">
+              <img src="Images/의류배너1.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="Images/의류배너2.jpeg" class="d-block w-100" alt="...">
+              <img src="Images/의류배너2.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="Images/의류배너1.jpeg" class="d-block w-100" alt="...">
+              <img src="Images/의류배너3.png" class="d-block w-100" alt="...">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -100,9 +90,86 @@
         </div>
       </section>
       <section>
-        
+        <div class="products">
+          <h3>. . . Our New Products . . .</h3>
+          <div class="product-list">
+              <a href="https://attrangs.co.kr/shop/view.php?index_no=159908" class="product">
+                  <img src="images/상품목록1.png" alt="상품목록1">
+                  <div class="product-price">30,000</div>
+                  <div class="product-name">머피 스트라이프 끈 나시</div>
+              </a>
+              <a href="https://attrangs.co.kr/shop/view.php?index_no=159917" class="product">
+                  <img src="images/상품목록2.png" alt="상품목록2">
+                  <div class="product-price">62,500</div>
+                  <div class="product-name">메리엇 프릴 밴딩 뷔스티에 <br>롱 원피스</div>
+              </a>
+              <a href="https://attrangs.co.kr/shop/view.php?index_no=159401" class="product">
+                  <img src="images/상품목록3.png" alt="상품목록3">
+                  <div class="product-price">90,000</div>
+                  <div class="product-name">프레니 골드 스틱 브이넥 트위드 <br>반팔 자켓</div>
+              </a>
+              <a href="https://attrangs.co.kr/shop/view.php?index_no=159212" class="product">
+                  <img src="images/상품목록4.png" alt="상품목록4"> 
+                  <div class="product-price">30,000</div>
+                  <div class="product-name">어스 2버전 스트링 바스락 점퍼</div>
+              </a>
+              <a href="#" class="product">
+                  <img src="images/상품목록5.png" alt="상품목록5">
+                  <div class="product-price">68,000</div>
+                  <div class="product-name">알렌 플라워 잔꽃 미니 끈 나시 원피스</div>
+              </a>
+              <a href="https://attrangs.co.kr/shop/view.php?index_no=159656" class="product">
+                  <img src="images/상품목록6.png" alt="상품목록6">
+                  <div class="product-price">65,000</div>
+                  <div class="product-name">데이진 썸머 워싱 테니스 스커트</div>              
+              </a>
+              <a href="https://attrangs.co.kr/shop/view.php?index_no=160226" class="product">
+                  <img src="images/상품목록7.png" alt="상품목록7">
+                  <div class="product-price">18,000</div>
+                  <div class="product-name">노블 진주 목걸이</div>   
+              </a>
+              <a href="https://attrangs.co.kr/shop/view.php?index_no=160397" class="product">
+                  <img src="images/상품목록8.png" alt="상품목록8">
+                  <div class="product-price">50,000</div>
+                  <div class="product-name">로에드 시스루 칼라 블라우스</div>  
+              </a>
+              <a href="https://attrangs.co.kr/shop/view.php?index_no=160397" class="product">
+                  <img src="images/상품목록9.png" alt="상품목록9">
+                  <div class="product-price">30,000</div>
+                  <div class="product-name">다이아 펀칭 프릴 여리핏 반팔 티셔츠</div>
+              </a>
+              <a href="https://attrangs.co.kr/shop/view.php?index_no=159950" class="product">
+                <img src="images/상품목록10.png" alt="상품목록10">
+                <div class="product-price">50,000</div>
+                <div class="product-name">멜팅 소프트 찰랑 와이드핏 밴딩 슬랙스</div>
+            </a>
+            <a href="https://attrangs.co.kr/shop/view.php?index_no=159386" class="product">
+                <img src="images/상품목록11.png" alt="상품목록11">
+                <div class="product-price">43,000</div>
+                <div class="product-name">터널 -7도 아이스 쿨랩 스트랩 원피스</div>   
+            </a>
+            <a href="https://attrangs.co.kr/shop/view.php?index_no=151034" class="product">
+                <img src="images/상품목록12.png" alt="상품목록12">
+                <div class="product-price">30,000</div>
+                <div class="product-name">디아즈 스웨이드 트위스트 미니 토트백</div>
+            </a>
+          </div>
+        </div>
       </section>
     </article>
+    <footer>
+      <div class="footer">
+              <a href="http://faceboo.com">
+                  <img src="Images/facebook.png" class="one">
+              </a>
+              <a href="http://instagram.com">
+                  <img src="Images/instagram.png" class="two">
+              </a>
+              <a href="http://twitter.com">
+                  <img src="Images/twitter.png" class="three">
+              </a>
+          </div>
+    </footer>
   </body>
 </html> 
 

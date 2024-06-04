@@ -6,23 +6,16 @@
 }
 
 @font-face {
-    font-family: 'KimjungchulMyungjo-Bold';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulMyungjo-Bold.woff2') format('woff2');
-    font-weight: 700;
+    font-family: 'KCC-Hanbit';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
+    font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'TTHakgyoansimMulgyeolB';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimMulgyeolB.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'YClover-Bold';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/YClover-Bold.woff2') format('woff2');
-    font-weight: 700;
+    font-family: 'Freesentation-9Black';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+    font-weight: 900;
     font-style: normal;
 }
 
@@ -39,23 +32,12 @@ body{
     top: 10px;
 }
 
-.header1-1 {
-    text-align: center;
-    color: #1f1e1e;
-    font-size: 20px;
-    font-family: 'KimjungchulMyungjo-Bold';
-    margin: 0;
-    position: relative;
-    top: -15px;
-    left: 3px;
-}
-
 .d-flex{
     margin: 10px;
     width: 300px;
     height: 30px;
     position: relative;
-    top: -135px;
+    top: -105px;
     left: 1090px;
 }
 
@@ -89,29 +71,30 @@ body{
 
 .navbar{
     position: relative;
-    top: -45px;
+    top: -35px;
 }
 
 .navbar-brand{
+    font-family: 'Freesentation-9Black';
     margin: 0 10px;
     position: relative;
     left: 450px;
 }
 
 ul{
-    font-family: 'YClover-Bold';
     position: relative;
     left: 450px;
 }
 
 li{
-    font-family: 'TTHakgyoansimMulgyeolB';
+    font-size: 18px;
+    font-family: 'BMJUA';
     margin: 0 10px;
 }
 
 img {
     width: 1600PX;
-    height: 400px;                                                        
+    height: 500px;                                                        
 }
 
 .carousel-indicators [data-bs-target] {
@@ -123,3 +106,99 @@ img {
   .carousel-indicators .active {
     background-color: #ffffff;
   }
+.products {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.products h3 {
+    font-family: 'Freesentation-9Black';
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.product {
+    font-family: 'KCC-Hanbit';
+    width: calc(25% - 20px); /* 4 products per row */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: transform 0.2s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.product-name {
+    margin-top: 10px;
+    font-size: 18px;
+  
+}
+
+.product-price {
+    font-family: 'KCC-Hanbit';
+    margin-top: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+@media (max-width: 992px) {
+    .product {
+        width: calc(33.333% - 20px); /* 3 products per row */
+    }
+}
+
+@media (max-width: 768px) {
+    .product {
+        width: calc(50% - 20px); /* 2 products per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .product {
+        width: 100%; /* 1 product per row */
+    }
+}
+  
+/* footer */
+.footer{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.footer a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.one, .two, .three{
+    width: 20px;
+    height: 20px;
+}
