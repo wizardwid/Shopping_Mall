@@ -28,17 +28,18 @@ body{
     color: black;
     font-size: 70px;
     font-family: 'TTHakgyoansimMulgyeolB';
-    position: relative;
-    top: 10px;
+}
+
+@media (max-width: 767px) {
+    .header1 {
+        font-size: 60px; /* 스마트폰 크기일 때 글자 크기 줄이기 */
+    }
 }
 
 .d-flex{
     margin: 10px;
     width: 300px;
     height: 30px;
-    position: relative;
-    top: -105px;
-    left: 1090px;
 }
 
 .bi{
@@ -59,6 +60,32 @@ body{
     color: #757178;      /*로그인 텍스트에 마우스를 올렸을 때 색상을 변경*/
 } 
 
+@media (max-width: 767px) {
+    .d-flex{
+        z-index: 10;
+        position: absolute;
+        top: 85px;
+        left: 420px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .d-flex{
+        z-index: 10;
+        position: relative;
+        top: 18px;
+        left: 500px;
+    }
+}
+
+@media (min-width: 992px){
+    .d-flex{
+        position: relative;
+        top: -100px;
+        left: 1090px;
+    }
+}
+
 .custom-btn {
     padding: 0.25rem 0.5rem; /* 패딩을 줄여 버튼을 줄임 */
     width: auto; /* 버튼 너비를 자동 조정 */
@@ -77,19 +104,46 @@ body{
 .navbar-brand{
     font-family: 'Freesentation-9Black';
     margin: 0 10px;
-    position: relative;
-    left: 450px;
-}
-
-ul{
-    position: relative;
-    left: 450px;
 }
 
 li{
     font-size: 18px;
     font-family: 'BMJUA';
     margin: 0 10px;
+}
+
+@media (max-width: 767px) {
+    .navbar{
+        position: relative;
+        top: -5px;
+        margin-bottom: 20px;
+    }
+    .navbar-toggler{
+        position: absolute;
+        left: 150px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {   
+    .navbar-brand{
+        position: relative;
+        left: 30px;
+    }
+    .navbar-toggler{
+        position: absolute;
+        left: 200px;
+    }
+}
+
+@media (min-width: 992px){
+    .navbar-brand{
+        position: relative;
+        left: 400px;
+    }
+    #navbarSupportedContent{
+        position: relative;
+        left: 400px;
+    }
 }
 
 img {
@@ -106,6 +160,21 @@ img {
   .carousel-indicators .active {
     background-color: #ffffff;      /* 활성화된 인디케이터의 색상을 설정 */
   }
+
+@media (max-width: 767px) {
+    img{
+        width: 1000px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    img{
+        width: 1300px;
+        height: 400px;
+    }
+}
+
 .products {
     width: 90%;
     max-width: 1200px;
