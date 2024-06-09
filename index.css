@@ -56,7 +56,7 @@ body{
 }
 
 .header2:hover{
-    color: #757178;
+    color: #757178;      /*로그인 텍스트에 마우스를 올렸을 때 색상을 변경*/
 } 
 
 .custom-btn {
@@ -104,7 +104,7 @@ img {
     background-color: #717171;
   }
   .carousel-indicators .active {
-    background-color: #ffffff;
+    background-color: #ffffff;      /* 활성화된 인디케이터의 색상을 설정 */
   }
 .products {
     width: 90%;
