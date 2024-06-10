@@ -40,6 +40,8 @@ body{
     margin: 10px;
     width: 300px;
     height: 30px;
+    position: relative; /* 폼을 sticky로 설정 */
+    z-index: 1000; /* 항상 위에 있도록 설정 */
 }
 
 .bi{
@@ -61,20 +63,18 @@ body{
 } 
 
 @media (max-width: 767px) {
-    .d-flex{
-        z-index: 10;
-        position: absolute;
-        top: 85px;
-        left: 420px;
+    .d-flex {
+        width: 70%;
+        top: 50px;
+        left: 200px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .d-flex{
-        z-index: 10;
-        position: relative;
-        top: 18px;
-        left: 500px;
+    .d-flex {
+        width: 50%;
+        top: 15px;
+        left: 420px;
     }
 }
 
@@ -114,35 +114,22 @@ li{
 
 @media (max-width: 767px) {
     .navbar{
-        position: relative;
-        top: -5px;
-        margin-bottom: 20px;
-    }
-    .navbar-toggler{
-        position: absolute;
-        left: 150px;
+        display: grid;
+        justify-content: start;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {   
-    .navbar-brand{
-        position: relative;
-        left: 30px;
-    }
-    .navbar-toggler{
-        position: absolute;
-        left: 200px;
+    .navbar{
+        display: grid;
+        justify-content: start;
     }
 }
 
 @media (min-width: 992px){
-    .navbar-brand{
-        position: relative;
-        left: 400px;
-    }
-    #navbarSupportedContent{
-        position: relative;
-        left: 400px;
+    .navbar{
+        display: grid;
+        justify-content: center;
     }
 }
 
