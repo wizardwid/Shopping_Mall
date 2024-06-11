@@ -47,7 +47,7 @@ body{
 }
 
 .header2{
-    font-size: small;
+    font-size: small; 
     width: 100px;
     margin: 10px;
     position: relative;
@@ -58,6 +58,11 @@ body{
 .header2:hover{
     color: #757178;      /*로그인 텍스트에 마우스를 올렸을 때 색상을 변경*/
 } 
+
+a {
+    text-decoration: none; /* 링크에 밑줄 제거 */
+    color: black;
+}
 
 .custom-btn {
     padding: 0.25rem 0.5rem; /* 패딩을 줄여 버튼을 줄임 */
