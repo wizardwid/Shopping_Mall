@@ -41,7 +41,7 @@ body{
     color: black;
     margin-bottom: 20px;
 }
-#login-form > input{    
+#login-form > input{    /* 로그인 폼의 입력 필드에 대한 스타일을 설정 */
     width: 100%;
     height: 48px;
     padding: 0 10px;
@@ -50,30 +50,30 @@ body{
     border-radius: 6px;
     background-color: #F8F8F8;
 }
-#login-form > input::placeholder{
+#login-form > input::placeholder{   /* 입력 필드의 placeholder 텍스트에 대한 스타일을 설정 */
     color: #D2D2D2;
 }
-#login-form > input[type="submit"]{
+#login-form > input[type="submit"]{     /* 로그인 버튼에 대한 스타일을 설정 */
     color: #fff;
     font-family: 'Freesentation-9Black';
     font-size: 16px;
     background-color: black;
     margin-top: 20px;
 }
-#login-form > input[type="checkbox"]{
-    display: none;
+#login-form > input[type="checkbox"]{   /* 체크박스를 숨기는 스타일을 설정 */
+    display: none;  /* 체크박스를 화면에서 숨깁 */
 }
-#login-form > label{
+#login-form > label{    /* 체크박스 레이블의 스타일을 설정 */
     color: #999999;
 }
-#login-form input[type="checkbox"] + label{
-    cursor: pointer;
+#login-form input[type="checkbox"] + label{     /* 체크박스가 선택되지 않았을 때의 레이블 스타일을 설정 */
+    cursor: pointer;    /* 마우스 커서를 포인터로 변경 */
     padding-left: 26px;
     background-image: url("checkbox.png");
     background-repeat: no-repeat;
     background-size: contain; 
 }
-#login-form input[type="checkbox"]:checked + label{
+#login-form input[type="checkbox"]:checked + label{ /* 체크박스가 선택되었을 때의 레이블 스타일을 설정 */
     background-image: url("checkbox-active.png");
     background-repeat: no-repeat;
     background-size: contain;
