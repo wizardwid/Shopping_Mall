@@ -40,13 +40,10 @@ body{
     margin: 10px;
     width: 300px;
     height: 30px;
-    position: relative; /* 폼을 sticky로 설정 */
-    z-index: 1000; /* 항상 위에 있도록 설정 */
-}
-
-.bi{
     position: relative;
-    top: -5px;
+    top: -100px;
+    left: 1190px;
+    z-index: 1000; /* 항상 위에 있도록 설정 */
 }
 
 .header2{
@@ -62,30 +59,6 @@ body{
     color: #757178;      /*로그인 텍스트에 마우스를 올렸을 때 색상을 변경*/
 } 
 
-@media (max-width: 767px) {
-    .d-flex {
-        width: 70%;
-        top: 50px;
-        left: 200px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .d-flex {
-        width: 50%;
-        top: 15px;
-        left: 420px;
-    }
-}
-
-@media (min-width: 992px){
-    .d-flex{
-        position: relative;
-        top: -100px;
-        left: 1090px;
-    }
-}
-
 .custom-btn {
     padding: 0.25rem 0.5rem; /* 패딩을 줄여 버튼을 줄임 */
     width: auto; /* 버튼 너비를 자동 조정 */
@@ -96,9 +69,23 @@ body{
     top: -3px;
 }
 
+@media (max-width: 767px) {
+    .d-flex{
+        top: 7px;
+        left: 400px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {   
+    .d-flex{
+        top: 7px;
+        left: 600px;
+    }
+}
+
 .navbar{
     position: relative;
-    top: -35px;
+    top: -45px;
 }
 
 .navbar-brand{
@@ -111,6 +98,16 @@ li{
     font-family: 'BMJUA';
     margin: 0 10px;
 }
+
+.navbar-toggler-icon {
+    width: 1.5rem; /* 정사각형 크기로 조정 */
+    height: 1.5rem; /* 정사각형 크기로 조정 */
+}
+
+.navbar-toggler {
+    padding: 0.3rem; /* 아이콘과 버튼 사이에 여백 추가 */
+}
+
 
 @media (max-width: 767px) {
     .navbar{
@@ -135,7 +132,7 @@ li{
 
 img {
     width: 1600PX;
-    height: 500px;                                                        
+    height: 450px;                                                        
 }
 
 .carousel-indicators [data-bs-target] {
@@ -158,7 +155,7 @@ img {
 @media (min-width: 768px) and (max-width: 991px) {
     img{
         width: 1300px;
-        height: 400px;
+        height: 350px;
     }
 }
 
@@ -177,6 +174,12 @@ img {
     margin-top: 60px;
     margin-bottom: 60px;
     text-align: center;
+}
+
+@media (max-width: 767px) {
+    .products h3{
+        font-size: 35px;
+    }
 }
 
 .product-list {
