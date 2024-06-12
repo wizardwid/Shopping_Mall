@@ -57,7 +57,7 @@ body{
     color: #fff;
     font-family: 'Freesentation-9Black';
     font-size: 16px;
-    background-color: black;
+    background-color: rgb(41, 41, 41);
     margin-top: 20px;
 }
 #login-form > input[type="checkbox"]{   /* 체크박스를 숨기는 스타일을 설정 */
