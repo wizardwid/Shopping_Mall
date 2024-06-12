@@ -91,7 +91,15 @@ a {
     color: black;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 509px) {
+    .navbar-toggler {
+        position: absolute;
+        top: 5px;
+        left: 135px;
+    }
+}
+
+@media (min-width: 510px) and (max-width: 991px) {
     .navbar-toggler {
         position: absolute;
         left: 135px;
