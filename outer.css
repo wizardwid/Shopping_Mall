@@ -107,6 +107,9 @@ a {
         top: 8px;
         left: 138px;
     }
+    .login{
+        display: none !important;
+    }
 }
 
 @media (min-width: 510px) and (max-width: 991px) {
