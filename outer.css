@@ -50,7 +50,7 @@ body{
 
 .navbar-brand{
     font-family: 'Freesentation-9Black';
-    margin: 0 10px;
+    padding-left: 250px;
 }
 
 .navbar-toggler-icon {
@@ -67,6 +67,11 @@ body{
     font-family: 'GmarketSansMedium';
 }
 
+li{
+    margin-right: 50px;
+    white-space: nowrap; /* 텍스트가 한 줄에 보이도록 함 */
+}
+
 .login{                                                                                                                          
     width: 350px;
     height: 30px;
@@ -77,9 +82,9 @@ body{
 .login-text{
     font-size: small; 
     width: 100px;
-    margin: 10px;
+
     position: relative;
-    top: -5px;
+    top: 5px;
     left: 13px;
 }
 
@@ -93,23 +98,33 @@ a {
 }
 
 @media (max-width: 509px) {
+    .navbar-brand{
+        font-family: 'Freesentation-9Black';
+        padding-left: 10px;
+    }
     .navbar-toggler {
         position: absolute;
-        top: 5px;
-        left: 135px;
-    }
-    .navbar-nav .nav-link {
-        font-size: initial; /* 폰트 스타일을 기본값으로 설정 */
+        top: 8px;
+        left: 138px;
     }
 }
 
 @media (min-width: 510px) and (max-width: 991px) {
+    .navbar-brand{
+        font-family: 'Freesentation-9Black';
+        padding-left: 10px;
+    }
     .navbar-toggler {
         position: absolute;
-        left: 135px;
+        top: 8px;
+        left: 138px;
     }
-    .navbar-nav .nav-link {
-        font-size: initial; /* 폰트 스타일을 기본값으로 설정 */
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    .navbar-brand{
+        font-family: 'Freesentation-9Black';
+        padding-left: 10px;
     }
 }
 
