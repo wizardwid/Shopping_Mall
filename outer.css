@@ -98,12 +98,18 @@ a {
         top: 5px;
         left: 135px;
     }
+    .navbar-nav .nav-link {
+        font-size: initial; /* 폰트 스타일을 기본값으로 설정 */
+    }
 }
 
 @media (min-width: 510px) and (max-width: 991px) {
     .navbar-toggler {
         position: absolute;
         left: 135px;
+    }
+    .navbar-nav .nav-link {
+        font-size: initial; /* 폰트 스타일을 기본값으로 설정 */
     }
 }
 

@@ -94,8 +94,11 @@ a {
 @media (max-width: 509px) {
     .navbar-toggler {
         position: absolute;
-        top: 5px;
+        top: 8px;
         left: 135px;
+    }
+    .navbar-nav .nav-link {
+        font-size: initial; /* 폰트 스타일을 기본값으로 설정 */
     }
 }
 
@@ -103,6 +106,9 @@ a {
     .navbar-toggler {
         position: absolute;
         left: 135px;
+    }
+    .navbar-nav .nav-link {
+        font-size: initial; /* 폰트 스타일을 기본값으로 설정 */
     }
 }
 
