@@ -81,7 +81,6 @@ li{
 .login-text{
     font-size: small; 
     width: 100px;
-
     position: relative;
     top: 5px;
     left: 13px;
@@ -103,8 +102,8 @@ a {
     }
     .navbar-toggler {
         position: absolute;
-        top: 8px;
-        left: 138px;
+        top: 10px;
+        left: 117px;
     }
     .login{
         display: none !important;
@@ -117,9 +116,9 @@ a {
         padding-left: 10px;
     }
     .navbar-toggler {
-        position: absolute;
-        top: 8px;
-        left: 138px;
+       position: absolute;
+       top: 10px;
+       left: 117px;
     }
 }
 

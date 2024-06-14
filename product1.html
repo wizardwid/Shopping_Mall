@@ -12,15 +12,15 @@
         <div class="container">
             <div class="row justify-content-center">
             <div class="col-lg-4 col-md-6 col-sm-8">
-                <div class="header1">구개블리</div>
+                <div class="header1">SUMBLY</div>
             </div>
             </div> 
         </div>
     </header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">GUGAEBLY</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="index.html">SUMBLY</a>
+            <button class="navbar-toggler" type="button" name="toggle" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -48,10 +48,10 @@
                     </li>
                 </ul>
             </div>
-            <form class="login d-flex">
+            <form  method="post" action="#" class="login d-flex">
                 <a class="login-text" href="login.html">로그인</a>
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-secondary custom-btn" type="submit">
+                <input class="form-control me-2" type="search" name="seh" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-secondary custom-btn" name="sumit" type="submit">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                         <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
                     </svg>
@@ -76,36 +76,38 @@
                     다채로운 7가지 컬러가 어우러져<br>
                     소장 가치까지 높은 #머피 끈 나시!
                 </p>
-                <div class="select d-flex">
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>색상</option>
-                        <option value="1">RED</option>
-                        <option value="2">GREEN</option>
-                        <option value="3">BLACK</option>
-                    </select>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>사이즈</option>
-                        <option value="1">S</option>
-                        <option value="2">M</option>
-                        <option value="3">L</option>
-                    </select>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>수량</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="1">4</option>
-                        <option value="2">5</option>
-                        <option value="3">6</option>
-                        <option value="1">7</option>
-                        <option value="2">8</option>
-                        <option value="3">9</option>
-                        <option value="1">10</option>
-                        <option value="2">11</option>
-                        <option value="3">12</option>
-                    </select>
-                </div>
-                <button id="credit" class="credit">구매하기</button>
+                <form method="post" action="#">
+                    <div class="select d-flex">
+                        <select class="form-select" name="color" aria-label="Default select example">
+                            <option selected>색상</option>
+                            <option value="1">RED</option>
+                            <option value="2">GREEN</option>
+                            <option value="3">BLACK</option>
+                        </select>
+                        <select class="form-select" name="size" aria-label="Default select example">
+                            <option selected>사이즈</option>
+                            <option value="1">S</option>
+                            <option value="2">M</option>
+                            <option value="3">L</option>
+                        </select>
+                        <select class="form-select" name="number" aria-label="Default select example">
+                            <option selected>수량</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="1">4</option>
+                            <option value="2">5</option>
+                            <option value="3">6</option>
+                            <option value="1">7</option>
+                            <option value="2">8</option>
+                            <option value="3">9</option>
+                            <option value="1">10</option>
+                            <option value="2">11</option>
+                            <option value="3">12</option>
+                        </select>
+                    </div>
+                    <button name="purchase" id="credit" class="credit">구매하기</button>
+                </form>    
             </div>
         </section>
     </article>

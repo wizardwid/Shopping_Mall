@@ -112,8 +112,8 @@ a {
     }
     .navbar-toggler {
         position: absolute;
-        top: 8px;
-        left: 138px;
+        top: 10px;
+        left: 117px;
     }
     .login{
         display: none !important;
@@ -127,8 +127,8 @@ a {
     }
     .navbar-toggler {
         position: absolute;
-        top: 8px;
-        left: 138px;
+        top: 10px;
+        left: 117px;
     }
 }
 
