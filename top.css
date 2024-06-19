@@ -26,6 +26,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'HSBombaram';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HSBombaram.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 body{
     background-color: white;
@@ -38,9 +45,9 @@ body{
     font-family: 'TTHakgyoansimMulgyeolB';
 }
 
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     .header1 {
-        font-size: 60px; /* 스마트폰 크기일 때 글자 크기 줄이기 */
+        font-size: 40px; /* 스마트폰 크기일 때 글자 크기 줄이기 */
     }
 }
 
@@ -151,8 +158,8 @@ a {
 }
 
 .products h3 {
-    font-family: 'Freesentation-9Black';
-    font-size: 40px;
+    font-family: 'HSBombaram';
+    font-size: 23px;
     color: black;
     font-weight: bold;
     margin-top: 60px;
@@ -162,7 +169,7 @@ a {
 
 @media (max-width: 767px) {
     .products h3{
-        font-size: 35px;
+        font-size: 18px;
     }
 }
 
