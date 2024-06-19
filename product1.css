@@ -166,7 +166,7 @@ a {
     height: auto; /* 이미지 비율 유지 */
     max-width: 100%;
     border-radius: 10px;
-    border: white;
+    border: 2px solid black;
 }
 
 .product-image img:hover {
