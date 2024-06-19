@@ -91,6 +91,7 @@ li{
     width: 100px;
     position: relative;
     top: 5px;
+    left: 13px;
 }
 
 .login-text:hover{
