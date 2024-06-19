@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'TTHakgyoansimMulgyeolB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimMulgyeolB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KCC-Hanbit';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freesentation-9Black';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HSBombaram';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HSBombaram.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    background-color: white;
+}
+
+.header1 {
+    text-align: center;
+    color: black;
+    font-size: 70px;
+    font-family: 'TTHakgyoansimMulgyeolB';
+}
+
+@media (max-width: 500px) {
+    .header1 {
+        font-size: 40px; /* 스마트폰 크기일 때 글자 크기 줄이기 */
+    }
+}
+
+.navbar{
+    margin-bottom: 40px; 
+}
+
+.navbar-brand{
+    font-family: 'Freesentation-9Black';
+    padding-left: 250px;
+}
+
+.navbar-toggler-icon {
+    width: 1.5rem; /* 정사각형 크기로 조정 */
+    height: 1.5rem; /* 정사각형 크기로 조정 */
+}
+
+.navbar-toggler {
+    padding: 0.3rem; /* 아이콘과 버튼 사이에 여백 추가 */
+}
+
+.collapse{
+    font-size: 18px;
+    font-family: 'GmarketSansMedium';
+}
+
+li{
+    margin-right: 50px;
+    white-space: nowrap; /* 텍스트가 한 줄에 보이도록 함 */
+}
+
+.login{                                                                                                                          
+    width: 350px;
+    height: 30px;
+    position: relative;
+    top: -2px;
+}
+
+.login-text{
+    font-size: small; 
+    width: 100px;
+
+    position: relative;
+    top: 5px;
+    left: 13px;
+}
+
+.login-text:hover{
+    color: #757178;      /*로그인 텍스트에 마우스를 올렸을 때 색상을 변경*/
+} 
+
+a {
+    text-decoration: none; /* 링크에 밑줄 제거 */
+    color: black;
+}
+
+@media (max-width: 509px) {
+    .navbar-brand{
+        font-family: 'Freesentation-9Black';
+        padding-left: 10px;
+    }
+    .navbar-toggler {
+        position: absolute;
+        top: 10px;
+        left: 117px;
+    }
+    .login{
+        display: none !important;
+    }
+}
+
+@media (min-width: 510px) and (max-width: 991px) {
+    .navbar-brand{
+        font-family: 'Freesentation-9Black';
+        padding-left: 10px;
+    }
+    .navbar-toggler {
+        position: absolute;
+        top: 10px;
+        left: 117px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    .navbar-brand{
+        font-family: 'Freesentation-9Black';
+        padding-left: 10px;
+    }
+}
+
+.custom-btn {
+    padding: 0.25rem 0.5rem; /* 패딩을 줄여 버튼을 줄임 */
+    width: auto; /* 버튼 너비를 자동 조정 */
+}
+
+.custom-btn svg{
+    position: relative;
+    top: -3px;
+}
+
+.products {
+    position: relative;
+    top: -50px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.products h3 {
+    font-family: 'HSBombaram';
+    font-size: 23px;
+    color: rgb(48, 48, 48);
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .products h3{
+        font-size: 18px;
+    }
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.product {
+    font-family: 'KCC-Hanbit';
+    width: calc(25% - 20px); /* 4 products per row */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: transform 0.2s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.product-name {
+    margin-top: 10px;
+    font-size: 18px;
+  
+}
+
+.product-price {
+    font-family: 'KCC-Hanbit';
+    margin-top: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+@media (max-width: 992px) {
+    .product {
+        width: calc(33.333% - 20px); /* 3 products per row */
+    }
+}
+
+@media (max-width: 768px) {
+    .product {
+        width: calc(50% - 20px); /* 2 products per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .product {
+        width: 100%; /* 1 product per row */
+    }
+}
+  
+/* footer */
+.footer{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.footer a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.one, .two, .three{
+    width: 20px;
+    height: 20px;
+}
