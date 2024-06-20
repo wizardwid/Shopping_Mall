@@ -57,6 +57,7 @@ body{
 .navbar-brand{
     font-family: 'Freesentation-9Black';
     padding-left: 250px;
+    margin-right: 50px;
 }
 
 .navbar-toggler-icon {
@@ -83,6 +84,7 @@ li{
     height: 30px;
     position: relative;
     top: -2px;
+    margin-right: 10px;
 }
 
 .login-text{
@@ -104,7 +106,6 @@ a {
 
 @media (max-width: 509px) {
     .navbar-brand{
-        font-family: 'Freesentation-9Black';
         padding-left: 10px;
     }
     .navbar-toggler {
@@ -119,7 +120,6 @@ a {
 
 @media (min-width: 510px) and (max-width: 991px) {
     .navbar-brand{
-        font-family: 'Freesentation-9Black';
         padding-left: 10px;
     }
     .navbar-toggler {
@@ -131,7 +131,6 @@ a {
 
 @media (min-width: 992px) and (max-width: 1300px) {
     .navbar-brand{
-        font-family: 'Freesentation-9Black';
         padding-left: 10px;
     }
 }
@@ -184,7 +183,7 @@ img {
 
 .products h3 {
     font-family: 'HSBombaram';
-    font-size: 23px;
+    font-size: 28px;
     color: rgb(48, 48, 48);
     font-weight: bold;
     margin-top: 60px;
@@ -194,7 +193,7 @@ img {
 
 @media (max-width: 767px) {
     .products h3{
-        font-size: 15px;
+        font-size: 22px;
     }
 }
 
