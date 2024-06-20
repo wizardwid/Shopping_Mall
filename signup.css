@@ -4,18 +4,18 @@
     font-weight: 900;
     font-style: normal;
 }
-*{
+* {
     padding: 0;
     margin: 0;
     border: none;
 }
-body{
+body {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
 }
-.login-wrapper {
+.signup-wrapper {
     width: 500px; /* 너비를 크게 조정 */
-    height: 500px; /* 높이를 크게 조정 */
+    height: 600px; /* 높이를 크게 조정 */
     padding: 40px;
     box-sizing: border-box;
     position: fixed;
@@ -24,9 +24,9 @@ body{
     transform: translate(-50%, -50%);
 }
 @media (max-width: 500px) {
-    .login-wrapper{
+    .signup-wrapper {
         width: 300px; /* 너비를 크게 조정 */
-        height: 300px; /* 높이를 크게 조정 */
+        height: 400px; /* 높이를 크게 조정 */
         padding: 0px;
         box-sizing: border-box;
         position: fixed;
@@ -35,13 +35,13 @@ body{
         transform: translate(-50%, -50%);
     }
 }
-.login-wrapper > h2{
+.signup-wrapper > h2 {
     font-size: 24px;
     font-family: 'Freesentation-9Black';
     color: black;
     margin-bottom: 20px;
 }
-#login-form > input{    /* 로그인 폼의 입력 필드에 대한 스타일을 설정 */
+#signup-form > input {
     width: 100%;
     height: 48px;
     padding: 0 10px;
@@ -50,31 +50,32 @@ body{
     border-radius: 6px;
     background-color: #F8F8F8;
 }
-#login-form > input::placeholder{   /* 입력 필드의 placeholder 텍스트에 대한 스타일을 설정 */
+#signup-form > input::placeholder {
     color: #2f2f2f84;
 }
-#login-form > input[type="submit"]{     /* 로그인 버튼에 대한 스타일을 설정 */
+#signup-form > input[type="submit"] {
     color: #fff;
     font-family: 'Freesentation-9Black';
     font-size: 16px;
     background-color: rgb(41, 41, 41);
     margin-top: 20px;
 }
-#login-form > input[type="checkbox"]{   /* 체크박스를 숨기는 스타일을 설정 */
-    display: none;  /* 체크박스를 화면에서 숨깁 */
+#signup-form > input[type="checkbox"] {
+    display: none;
 }
-#login-form > label{    /* 체크박스 레이블의 스타일을 설정 */
+#signup-form > label {
     color: #999999;
 }
-#login-form input[type="checkbox"] + label{     /* 체크박스가 선택되지 않았을 때의 레이블 스타일을 설정 */
-    cursor: pointer;    /* 마우스 커서를 포인터로 변경 */
+#signup-form input[type="checkbox"] + label {
+    cursor: pointer;
     padding-left: 26px;
     background-image: url("checkbox.png");
     background-repeat: no-repeat;
-    background-size: contain; 
+    background-size: contain;
 }
-#login-form input[type="checkbox"]:checked + label{ /* 체크박스가 선택되었을 때의 레이블 스타일을 설정 */
+#signup-form input[type="checkbox"]:checked + label {
     background-image: url("checkbox-active.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
+
