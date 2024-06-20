@@ -56,7 +56,7 @@ body{
 
 .navbar-brand{
     font-family: 'Freesentation-9Black';
-    padding-left: 250px;
+    padding-left: 200px;
     margin-right: 50px;
 }
 
@@ -87,16 +87,28 @@ li{
     margin-right: 10px;
 }
 
+.sign-text{
+    font-size: small; 
+    width: 100px;
+    position: relative;
+    top: 5px;
+    left: -3px;
+}
+
 .login-text{
     font-size: small; 
     width: 100px;
     position: relative;
     top: 5px;
-    left: 13px;
+    left: 4px;
 }
 
 .login-text:hover{
     color: #757178;      /*로그인 텍스트에 마우스를 올렸을 때 색상을 변경*/
+} 
+
+.sign-text:hover{
+    color: #757178;      /*회원가입 텍스트에 마우스를 올렸을 때 색상을 변경*/
 } 
 
 a {

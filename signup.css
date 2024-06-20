@@ -78,4 +78,10 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
 }
+@media (max-width: 500px) {
+    .signup-wrapper {
+        position: relative;
+        top: 250px;
+    }
+}
 

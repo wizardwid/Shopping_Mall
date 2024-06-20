@@ -78,3 +78,16 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
 }
+.sign-text{
+    display: flex;
+    justify-content: center;
+}
+
+.sign-text:hover{
+    color: #757178;      /*회원가입 텍스트에 마우스를 올렸을 때 색상을 변경*/
+} 
+
+a {
+    text-decoration: none; /* 링크에 밑줄 제거 */
+    color: black;
+}
