@@ -33,6 +33,7 @@
     font-style: normal;
 }
 
+
 body{
     background-color: white;
 }
@@ -84,7 +85,6 @@ li{
     height: 30px;
     position: relative;
     top: -2px;
-    margin-right: 10px;
 }
 
 .sign-text{
@@ -135,9 +135,9 @@ a {
         padding-left: 10px;
     }
     .navbar-toggler {
-       position: absolute;
-       top: 10px;
-       left: 117px;
+        position: absolute;
+        top: 10px;
+        left: 117px;
     }
 }
 
@@ -157,36 +157,9 @@ a {
     top: -3px;
 }
 
-img {
-    width: 1600PX;
-    height: 500px;                                                        
-}
-
-.carousel-indicators [data-bs-target] {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: #717171;
-  }
-  .carousel-indicators .active {
-    background-color: #ffffff;      /* 활성화된 인디케이터의 색상을 설정 */
-  }
-
-@media (max-width: 767px) {
-    img{
-        width: 1000px;
-        height: 300px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    img{
-        width: 1300px;
-        height: 350px;
-    }
-}
-
 .products {
+    position: relative;
+    top: -50px;
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
@@ -243,6 +216,7 @@ img {
 .product-name {
     margin-top: 10px;
     font-size: 18px;
+  
 }
 
 .product-price {

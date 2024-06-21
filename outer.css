@@ -80,6 +80,13 @@ li{
     white-space: nowrap; /* 텍스트가 한 줄에 보이도록 함 */
 }
 
+.login{                                                                                                                          
+    width: 350px;
+    height: 30px;
+    position: relative;
+    top: -2px;
+}
+
 .sign-text{
     font-size: small; 
     width: 100px;
