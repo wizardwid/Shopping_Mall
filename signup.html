@@ -12,18 +12,32 @@
         <h2>Sign up</h2>
         <form method="post" action="" id="signup-form">
             <input type="email" name="email" id="email" placeholder="Email">
+            <div class="invalid-feedback" id="emailError" style="display: none; color: rgb(72, 56, 126); position: relative; top: -15px;">이메일을 입력해주세요.</div>
+
             <strong>생년월일</strong>
             <input type="date" class="text" id="birth" name="birth" placeholder="Birth Date">
+            <div class="invalid-feedback" id="birthError" style="display: none; color: rgb(72, 56, 126); position: relative; top: -15px;">생년생일을 선택해주세요.</div>
+
             <input type="text" name="username" id="username" placeholder="UserName">
-            <input type="id" name="id" placeholder="Id">
+            <div class="invalid-feedback" id="usernameError" style="display: none; color: rgb(72, 56, 126); position: relative; top: -15px;">이름을 입력해주세요.</div>
+
+            <input type="id" name="id" id="id" placeholder="Id">
+            <div class="invalid-feedback" id="idError" style="display: none; color: rgb(72, 56, 126); position: relative; top: -15px;">아이디를 입력해주세요.</div>
+
             <input type="password" name="password" id="password" placeholder="Password">
+            <div class="invalid-feedback" id="passwordError" style="display: none; color: rgb(72, 56, 126); position: relative; top: -15px;">비밀번호를 입력해주세요</div>
+
             <input type="password" name="cpassword" id="cpassword" placeholder="Check Password">
+            <div class="invalid-feedback" id="cpasswordError" style="display: none; color: rgb(72, 56, 126); position: relative; top: -15px;">비밀번호 확인을 해주세요.</div>
+
             <label for="terms-check">
                 <input type="checkbox" name="terms" id="terms-check"> 약관에 동의합니다
             </label>
+            <div class="invalid-feedback" id="termsError" style="display: none; color: rgb(72, 56, 126); position: relative; top: 0px;">이용 약관에 관한 안내를 동의해주세요.</div>
             <input type="submit" name="signUp" value="Signup">
         </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="signup.js"></script>
 </body>
 </html>
