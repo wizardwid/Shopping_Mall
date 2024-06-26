@@ -30,9 +30,9 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     .signup-wrapper {
-        width: 280px; /* 너비를 크게 조정 */
+        width: 330px; /* 너비를 크게 조정 */
         max-height: 600px; 
         padding: 0px;
         box-sizing: border-box;
