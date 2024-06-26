@@ -47,7 +47,7 @@ body{
 
 @media (max-width: 500px) {
     .header1 {
-        font-size: 40px; /* 스마트폰 크기일 때 글자 크기 줄이기 */
+        font-size: 50px; /* 스마트폰 크기일 때 글자 크기 줄이기 */
     }
 }
 

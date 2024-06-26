@@ -39,7 +39,7 @@ body{
 
 @media (max-width: 500px) {
     .header1 {
-        font-size: 40px; /* 스마트폰 크기일 때 글자 크기 줄이기 */
+        font-size: 50px; /* 스마트폰 크기일 때 글자 크기 줄이기 */
     }
 }
 
@@ -118,8 +118,9 @@ a {
     top: -3px;
 }
 
-@media (max-width: 557px) {
+@media (max-width: 509px) {
     .navbar-brand{
+        padding-left: 10px;
     }
     .navbar-toggler {
         position: absolute;
@@ -131,7 +132,7 @@ a {
     }
 }
 
-@media (min-width: 558px) and (max-width: 991px) {
+@media (min-width: 510px) and (max-width: 991px) {
     .navbar-brand{
         padding-left: 10px;
     }
@@ -146,7 +147,7 @@ a {
     .navbar-brand{
         padding-left: 10px;
     }
-}                                
+}                           
 
 .product {
     background-color: #fff;
