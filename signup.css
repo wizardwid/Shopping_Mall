@@ -30,10 +30,10 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-@media (max-width: 500px) {
+@media (max-width: 450px) {
     .signup-wrapper {
-        width: 300px; /* 너비를 크게 조정 */
-        max-height: 400px; 
+        width: 280px; /* 너비를 크게 조정 */
+        max-height: 600px; 
         padding: 0px;
         box-sizing: border-box;
         position: fixed;
@@ -84,11 +84,5 @@ body {
     background-image: url("checkbox-active.png");
     background-repeat: no-repeat;
     background-size: contain;
-}
-@media (max-width: 500px) {
-    .signup-wrapper {
-        position: relative;
-        top: 250px;
-    }
 }
 
