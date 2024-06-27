@@ -1,35 +1,7 @@
 @font-face {
-    font-family: 'TTHakgyoansimMulgyeolB';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimMulgyeolB.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'KCC-Hanbit';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'Freesentation-9Black';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
     font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'GmarketSansMedium';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'HSBombaram';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HSBombaram.woff') format('woff');
-    font-weight: normal;
     font-style: normal;
 }
 * {
@@ -46,11 +18,11 @@ body {
     -ms-overflow-style: none;  /*IE, Edge*/
     scrollbar-width: none; /*Firefox*/
     width: 500px; /* 너비를 크게 조정 */
-    max-height: 700px; /* 높이를 최대 높이로 제한 */
+    max-height: 800px; /* 높이를 최대 높이로 제한 */
     padding: 40px;
     box-sizing: border-box;
     position: fixed;
-    top: 49%;
+    top: 51%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -67,20 +39,28 @@ body {
 }
 @media (max-width: 500px) {
     .payment-wrapper {
-        width: 300px;
+        width: 350px;
         padding: 0px;
-        box-sizing: border-box;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    }
+    .navbar {
+        position: relative; /* 부모 요소에 position: relative; 추가 */
+    }
+    .navbar-brand {
+        position: absolute;
+        right: 0;
+        transform: translateX(-20%);
     }
 }
-.payment-wrapper > h2 {
+.navbar > h2 {
     font-size: 24px;
     font-family: 'Freesentation-9Black';
     color: black;
-    margin-bottom: 20px;
+}
+.navbar-brand{
+    position: absolute;
+    left: 77%;
+    font-size: 24px;
+    font-family: 'Freesentation-9Black';
 }
 .payment-details {
     margin-bottom: 20px;
