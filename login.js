@@ -28,6 +28,6 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     // 모든 유효성 검사를 통과하면 폼을 제출
     if (isValid) {
         alert("로그인 되었습니다.");
-        // this.submit(); // 폼 제출을 원할 경우 이 줄의 주석을 해제하세요
+        // this.submit(); // 폼 제출을 원할 경우 이 줄의 주석을 해제
     }
 });
