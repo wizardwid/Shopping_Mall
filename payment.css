@@ -42,6 +42,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 .payment-wrapper {
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /*IE, Edge*/
+    scrollbar-width: none; /*Firefox*/
     width: 500px;
     height: auto;
     padding: 40px;
@@ -51,6 +54,10 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+::-webkit-scrollbar {
+    display: none; /*Chrome, Safari, Opera*/
+    width: 0px;
+} 
 .payment-details{
     padding: 10px;
     font-family: 'GmarketSansMedium';

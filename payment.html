@@ -26,8 +26,8 @@
           </div>
       </div>
       <form method="post" action="#" id="payment-form">
-          <input type="text" name="name" placeholder="이름" required>
-          <select name="cardof" required>
+          <input type="text" name="name" id="name" placeholder="이름" required>
+          <select name="cardof" id="cardof" required>
               <option selected disabled>카드사</option>
               <option value="1">NH농협</option>
               <option value="2">신한은행</option>
@@ -36,10 +36,10 @@
               <option value="5">하나은행</option>
               <option value="6">기업은행</option>
           </select>
-          <input type="text" name="cnumber" placeholder="카드 번호" required>
-          <input type="text" name="edate" placeholder="만료일 (MM/YY)" required>
-          <input type="text" name="cvv" placeholder="CVV" required>
-          <input type="submit" value="결제하기" onclick="alert('결제되었습니다.')" onclick>
+          <input type="text" name="cnumber" id="cnumber" placeholder="카드 번호" required>
+          <input type="text" name="edate" id="edate" placeholder="만료일 (MM/YY)" required>
+          <input type="text" name="cvv" id="cvv" placeholder="CVV" required>
+          <input type="submit" value="결제하기">
       </form>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

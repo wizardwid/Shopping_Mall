@@ -17,10 +17,6 @@ body {
     overflow-y: scroll;
     -ms-overflow-style: none;  /*IE, Edge*/
     scrollbar-width: none; /*Firefox*/
-    ::-webkit-scrollbar {
-        display: none; /*Chrome, Safari, Opera*/
-        width: 0px;
-    } 
     width: 500px; /* 너비를 크게 조정 */
     max-height: 600px; /* 높이를 최대 높이로 제한 */
     padding: 40px;
@@ -30,10 +26,14 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+::-webkit-scrollbar {
+    display: none; /*Chrome, Safari, Opera*/
+    width: 0px;
+} 
 @media (max-width: 500px) {
     .signup-wrapper {
         width: 330px; /* 너비를 크게 조정 */
-        max-height: 600px; 
+        height: auto; 
         padding: 0px;
         box-sizing: border-box;
         position: fixed;
