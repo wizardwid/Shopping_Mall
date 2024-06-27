@@ -40,7 +40,7 @@ body {
     background-color: #f9f9f9;
 }
 
-.header1 {
+header {
     text-align: center;
     color: black;
     font-size: 70px;
@@ -48,7 +48,7 @@ body {
 }
 
 @media (max-width: 500px) {
-    .header1 {
+    header {
         font-size: 40px; /* 스마트폰 크기일 때 글자 크기 줄이기 */
     }
 }
