@@ -203,10 +203,17 @@ a {
     font-size: 1.5rem;
     margin-bottom: 15px;
 }
-
+/* 
 .description {
     font-family: 'GmarketSansMedium';
     margin-bottom: 20px;
+    color: #555;
+} */
+
+pre {
+    font-family: 'GmarketSansMedium';
+    margin-bottom: 20px;
+    font-size: medium;
     color: #555;
 }
 

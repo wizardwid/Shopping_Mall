@@ -1,0 +1,75 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "image": {
+          "src": "images/악세잡화1.png",
+          "alt": "악세잡화1"
+        },
+        "name": "러튼 헤어 집게핀",
+        "price": "₩ 9,000",
+        "emphasis": "만능템♥/심플세련미",
+        "description": "데일리하게 손이 갈 만큼 심플한 집게핀\n취향 타지 않는 심플한 디자인\n짱짱하게 헤어를 고정해주는 넉넉한 크기의 헤어집게\n어디에나 매치하기 좋은 만능 아이템!\n큼직한 사이즈로 머리숱 부자도 Okay~\n#러튼 헤어 집게핀",
+        "colorOptions": [
+            { "value": "1", "text": "Cream" },
+            { "value": "2", "text": "Yellow" },
+            { "value": "3", "text": "Pink" },
+            { "value": "4", "text": "SkyBlue" },
+            { "value": "5", "text": "Black" },
+            { "value": "6", "text": "Clear" }
+        ]
+      },
+      {
+        "id": 2,
+        "image": {
+          "src": "images/악세잡화2.png",
+          "alt": "악세잡화2"
+        },
+        "name": "마론 클래식 라피아 햇",
+        "price": "₩ 43,000",
+        "emphasis": "여름기본템♥/청량한",
+        "description": "가장 데일리하게 코디할 수 있는 기본 디자인\n청량한 여름 분위기의\n#마론 클래식 라피아 햇\n적당한 챙 길이와 과하게 넓지 않은 세줄 띠 디자인\n바캉스룩부터 데일리룩까지 다양하게 코디 활용!\n퀄리티 좋은 여름 모자는 #마론 클래식 라피아 햇",
+        "colorOptions": [
+          { "value": "1", "text": "Ivory" },
+          { "value": "2", "text": "Beige" },
+          { "value": "3", "text": "Black" }
+        ]
+      }
+    ],
+    "form": {
+      "method": "post",
+      "action": "payment.html",
+      "div": {
+        "class": "select d-flex",
+        "select": [
+          {
+            "class": "form-select",
+            "name": "size",
+            "aria-label": "사이즈",
+            "option": [
+              { "selected": true, "text": "사이즈" },
+              { "value": "1", "text": "Free" }
+            ]
+          },
+          {
+            "class": "form-select",
+            "name": "number",
+            "aria-label": "수량",
+            "option": [
+              { "selected": true, "text": "수량" },
+              { "value": "1", "text": "1" },
+              { "value": "2", "text": "2" },
+              { "value": "3", "text": "3" }
+            ]
+          }
+        ]
+      },
+      "button": {
+        "type": "submit",
+        "name": "purchase",
+        "class": "credit",
+        "text": "구매하기"
+      }
+    }
+  }
+  
