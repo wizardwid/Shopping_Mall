@@ -87,10 +87,11 @@ document.addEventListener("DOMContentLoaded", function() {
             colorSelectElement.name = "color";
             colorSelectElement.ariaLabel = "색상";
 
-            // "색상" 옵션을 기본으로 
+            // 첫 번째 기본 옵션 추가
             const defaultOption = document.createElement("option");
             defaultOption.textContent = "색상";
-            defaultOption.selected = true;  // 기본적으로 선택된 상태
+            defaultOption.selected = true;
+            defaultOption.disabled = true; // 선택 불가 상태
             colorSelectElement.appendChild(defaultOption);
 
             product.colorOptions.forEach(color => {
@@ -114,6 +115,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             const optionElement = document.createElement("option");
                             optionElement.value = optionData.value || '';
                             optionElement.selected = optionData.selected || false;
+                            optionElement.disabled = optionData.selected || false; // 기본 옵션만 비활성화
                             optionElement.textContent = optionData.text;
                             selectElement.appendChild(optionElement);
                         });
