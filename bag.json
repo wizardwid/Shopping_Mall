@@ -1,0 +1,228 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "image": {
+          "src": "images/가방1.png",
+          "alt": "가방1"
+        },
+        "name": "리얼 소가죽 투웨이 스트랩 토트 숄더백 bag",
+        "price": "₩ 115,000",
+        "emphasis": "고급세련미♥/탈부착가능",
+        "description": " 스트랩 없이 세련된 탑핸들 토트백\n스트랩을 이용해 심플한 숄더백\n탈부착, 길이 조절이 가능한 스트랩이 있어 스타일과 취향에 맞춰 활용 가능!\n일반 가방보다 더 굵은 스티치\n지퍼 탭까지 같을 가죽과 이너 포켓, 지퍼 포켓으로 더 안전!\n#리얼 소가죽 투웨이 스트랩 토트 숄더백 bag",
+        "colorOptions": [
+            { "value": "1", "text": "Ivory" },
+            { "value": "2", "text": "DarkBrown" },
+            { "value": "3", "text": "Black" }
+        ]
+      },
+      {
+        "id": 2,
+        "image": {
+          "src": "images/가방2.png",
+          "alt": "가방2"
+        },
+        "name": "모얼 라탄 미니백",
+        "price": "₩ 37,500",
+        "emphasis": "여름철용♥/가볍넉넉",
+        "description": "미니사이즈이지만 데일리 소지품을 넉넉하게!\n라탄 소재가 주는 내추럴한 느낌과 시원한 분위기로\n여름철에 포인트 아이템으로 활용 가능\n가벼운 무게감으로 손쉽게 매치\n데일리백ㅇ로 물론 휴양지 포인트백 & 여름철 포인트 아이템으로 겟\n#모얼 라탄 미니백",
+        "colorOptions": [
+          { "value": "1", "text": "Beige" }
+        ]
+      },
+      {
+        "id": 3,
+        "image": {
+          "src": "images/가방3.png",
+          "alt": "가방3"
+        },
+        "name": "마를리 투포켓 미니 백",
+        "price": "₩ 45,000",
+        "emphasis": "데일리백♥/백팩입문용",
+        "description": "스커트, 원피스, 팬츠, 슬랙스 어디 하나 어울리지 않는 곳이 없었던\n#마를리 투포켓 미니 백\n넉넉한 사이즈로, 수남공간까지 여유!\n그날의 코디가 밋밋하지 않게 완성\n이중 잠금 & 버클 스트랩 & 은은한 광\n백팩들 중에서 옆뒷태가 예븐 실루엣이 나오는 디자인",
+        "colorOptions": [
+          { "value": "1", "text": "Cream" },
+          { "value": "2", "text": "Beige" },
+          { "value": "1", "text": "Black" },
+          { "value": "2", "text": "SkyBlue" },
+          { "value": "1", "text": "Gray" }
+        ]
+      },
+      {
+        "id": 4,
+        "image": {
+          "src": "images/가방4.png",
+          "alt": "가방4"
+        },
+        "name": "스퀘어 쉐입 베이직 숄더백",
+        "price": "₩ 40,000",
+        "emphasis": "데일리백♥/스퀘어 쉐입",
+        "description": "미디움 사이즈의 스퀘어 쉐입으로 다양한 스타일에 스타일링 가능!\n부드러운 지퍼 디테일로 편리한 오픈 클로징\n길이 조절 가능한 버튼 스트랩\n토트백 또는 숄더백으로 취향에 맞춰 활용 가능\n내부 공간이 넉넉할수록 더 필요한 이너 포켓으로 안전하게 분리 수납\n#스퀘어 쉐입 베이직 숄더백",
+        "colorOptions": [
+          { "value": "1", "text": "Black" },
+          { "value": "2", "text": "Beige" }
+        ]
+      },
+      {
+        "id": 5,
+        "image": {
+          "src": "images/가방5.png",
+          "alt": "가방5"
+        },
+        "name": "디아즈 스웨이드 트위스트 미니 토트백",
+        "price": "₩ 30,000",
+        "emphasis": "사랑스러운♥/스웨이드 소재",
+        "description": "작고 사랑스러운 분위기의\n#디아즈 스웨이드 트위스트 미니 토트백\n탄탄하면서 매트한 스웨이드 소재로 제작된 가방\n밑판이 존재해 안정적인 수납력 선사!\n유연한 곡선의 쉐입과 유니크한 트위스트\n소장 가치 높은 디자인과 소재감으로 다양한 룩에 포인트!",
+        "colorOptions": [
+          { "value": "1", "text": "Black" }
+        ]
+      },
+      {
+        "id": 6,
+        "image": {
+          "src": "images/가방6.png",
+          "alt": "가방6"
+        },
+        "name": "헨지 자수 3가지 사이즈 캔버스백",
+        "price": "₩ 50,000",
+        "emphasis": "데일리백♥/자수포인트",
+        "description": "자수 포인트가 더해진 고퀄리티 데일리백\n취향에 따라 선택하는 3가이즈 캔버스백\n캐주얼한 무드의 레터링 자수 & 소지품 분실을 방지하는 스냅 버튼!\n카드, 지폐 등의 귀중품 수납을 위한 이너 포켓까지!\n직사각형 바닥면으로 테이블이나 의자에 내려 놓았을 때 안정적!\n#헨지 자수 3가지 사이즈 캔버스백",
+        "colorOptions": [
+          { "value": "1", "text": "Red" }
+        ]
+      },
+      {
+        "id": 7,
+        "image": {
+          "src": "images/가방7.png",
+          "alt": "가방7"
+        },
+        "name": "에린 스트라이프 테리 에코백",
+        "price": "₩ 30,000",
+        "emphasis": "스트라이프♥/에코백",
+        "description": "가벼운 피크닉을 떠날때 간단한 짐 휘뚜루 마뚜루 담아갈 수 있는!\n#에린 스트라이프 테리 에코백\n썸머시즌 아주 유용하게 들기 좋은 가방\n수영복과 큰 비치타올 외에도 자잘한 짐까지 담을 수 있는 넉넉한 사잊\n어깨끈을 넓게 제작해 쉽게 끊어지지 않고 안정적이게 착용 가능\n#에린 스트라이프 테리 에코백",
+        "colorOptions": [
+          { "value": "1", "text": "Orange" },
+          { "value": "2", "text": "SkyBlue" },
+          { "value": "3", "text": "Navy" },
+          { "value": "4", "text": "Black" }
+        ]
+      },
+      {
+        "id": 8,
+        "image": {
+          "src": "images/가방8.png",
+          "alt": "가방8"
+        },
+        "name": "힐튼 미니 구슬백",
+        "price": "₩ 20,000",
+        "emphasis": "로맨틱♥/미니미",
+        "description": "립스틱, 카드 정도의 가벼운 소지품을 넣기 좋은 사이즈\n다른 주얼리없이 은은하면서 포인트주기 좋은\n#힐튼 미니 구슬백\n아크릴 진주를 엮은 사랑스러운 디자인\n일상 코디에도 다양하게 매치 가능\n요즘 트렌드인 세컨백으로 활용 가능♥",
+        "colorOptions": [
+          { "value": "1", "text": "Pearl" }
+        ]
+      },
+      {
+        "id": 9,
+        "image": {
+          "src": "images/가방9.png",
+          "alt": "가방9"
+        },
+        "name": "디에르 스웨이드 체인 백팩",
+        "price": "₩ 37,50",
+        "emphasis": "스웨이드♥/고급미",
+        "description": "오랜 시간 함께할 수 있는 아이템\n해가 지날수로 더 소장가치 UP!\n고급스러움을 높여준 매츠한 소재감\n스트링 형태의 오픈 클로징과 안정감 있는 버튼\n안쪽 수납이 가능한 내부 수납\n#디에르 스웨이드 체인 백팩",
+        "colorOptions": [
+          { "value": "1", "text": "Pink" },
+          { "value": "2", "text": "Comel" },
+          { "value": "3", "text": "Brown" }
+        ]
+      },
+      {
+        "id": 10,
+        "image": {
+          "src": "images/가방10.png",
+          "alt": "가방10"
+        },
+        "name": "베니스 체인 숄더 백팩",
+        "price": "₩ 35,00",
+        "emphasis": "토트&백팩♥/고급가죽",
+        "description": "두 줄의 긴 체인과 한 줄의 짧은 체인\n백팩으로도, 토트백으로도 맬 수 있는 제품!\n요즘 가장 트렌디한 아이템인\n#베니스 체인 숄더 백팩\n세련된 느낌의 가죽 백팩\n다양한 룩에 어울리는 활용도 높은 가방!",
+        "colorOptions": [
+          { "value": "1", "text": "Ivory" },
+          { "value": "2", "text": "Silver" },
+          { "value": "3", "text": "Black" },
+          { "value": "4", "text": "Pink" },
+          { "value": "5", "text": "IvoryBlack" }
+        ]
+      },
+      {
+        "id": 11,
+        "image": {
+          "src": "images/가방11.png",
+          "alt": "가방11"
+        },
+        "name": "탑핸들 체인 미니 퀼팅백",
+        "price": "₩ 30,00",
+        "emphasis": "데일리백♥/고급세련미",
+        "description": " 퀄팅 디자인의 탑핸들 체인 미니백\n귀여운 미니 사이즈로 컴팩트한 매력!\n작은 크기에 무게감도 없어 부담없이 데일리백으로 추천\n탑핸들과 체인이 함께 구성 토드로 숄더로 연출 가능\n골드컬러의 버클과 체인 디테일이 고급미 UP!\n#탑핸들 체인 미니 퀼팅백",
+        "colorOptions": [
+          { "value": "1", "text": "Red" }
+        ]
+      },
+      {
+        "id": 12,
+        "image": {
+          "src": "images/가방12.png",
+          "alt": "가방12"
+        },
+        "name": "다이아 퀼팅 체인 미들 백",
+        "price": "₩ 47,500",
+        "emphasis": "다이아체크♥/스퀘어 쉐입",
+        "description": "통통한 퀄팅 디자인의 체인 숄더 스퀘어 백\n어디에나 포인트로 들기 좋은 가방!\n그날의 스타일링이나 분위기에 맞춰 골라 예쁜 착용 가능\n스퀘어 쉐입으로 어떤 룩에도 가볍게 들기 Good♥\n체인 스트랩으로 세련된 무드 UP\n#다이아 퀼팅 체인 미들 백",
+        "colorOptions": [
+          { "value": "1", "text": "Beige" },
+          { "value": "2", "text": "Black" },
+          { "value": "3", "text": "Ivory" },
+          { "value": "4", "text": "Pink" },
+          { "value": "5", "text": "SkyBlue" }
+        ]
+      }
+    ],
+    "form": {
+      "method": "post",
+      "action": "payment.html",
+      "div": {
+        "class": "select d-flex",
+        "select": [
+          {
+            "class": "form-select",
+            "name": "size",
+            "aria-label": "사이즈",
+            "option": [
+              { "selected": true, "text": "사이즈" },
+              { "value": "1", "text": "Free" }
+            ]
+          },
+          {
+            "class": "form-select",
+            "name": "number",
+            "aria-label": "수량",
+            "option": [
+              { "selected": true, "text": "수량" },
+              { "value": "1", "text": "1" },
+              { "value": "2", "text": "2" },
+              { "value": "3", "text": "3" }
+            ]
+          }
+        ]
+      },
+      "button": {
+        "type": "submit",
+        "name": "purchase",
+        "class": "credit",
+        "text": "구매하기"
+      }
+    }
+  }
+  
