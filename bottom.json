@@ -1,0 +1,232 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "image": {
+          "src": "images/하의1.png",
+          "alt": "하의1"
+        },
+        "name": "멜팅 소프트 찰랑 와이드핏 밴딩 슬랙스",
+        "price": "₩ 50,000",
+        "emphasis": "찰랑찰랑♥/여름전용",
+        "description": "깔끔하게 툭 떨어지는 스트레이트 와이드핏\n스판 5%의 편안한 신축성\n고유의 결감이 살아있는 폴리스판 원단으로 은은한 텍스쳐!\n후들후들하게 내려오며 하체를 커버해주는 핏감\n넉넉한 요척으로 힙라인 부각 없는\n#멜팅 소프트 찰랑 와이드핏 밴딩 슬랙스",
+        "colorOptions": [
+            { "value": "1", "text": "Cream" },
+            { "value": "2", "text": "Beige" },
+            { "value": "3", "text": "Black" },
+            { "value": "1", "text": "SkyBlue" },
+            { "value": "2", "text": "Gray" }
+        ]
+      },
+      {
+        "id": 2,
+        "image": {
+          "src": "images/하의2.png",
+          "alt": "하의2"
+        },
+        "name": "Day Jeans No.52 데이진 썸머 절개 세미와이드 데님 팬츠",
+        "price": "₩ 75,000",
+        "emphasis": "쿨데님♥/롱다리핏",
+        "description": "센처라인에 절개 디테일로 세련되면서 고급스러운 실루엣 연출!\n굴곡 없이 떨어지는 깔끔한 라인\n티셔츠부터 니트, 셔츠 등 다양한 아이템과 높은 코디 소화력\n여름용 기능성 원단으로 가볍고 통기성 UP\n적당히 탄탄해 군살은 싹 커버 & 부드러운 스판성으로 편한\n#Day Jeans No.52 데이진 썸머 절개 세미와이드 데님 팬츠",
+        "colorOptions": [
+          { "value": "1", "text": "Blue" }
+        ]
+      },
+      {
+        "id": 3,
+        "image": {
+          "src": "images/하의3.png",
+          "alt": "하의3"
+        },
+        "name": "헤이즈 포켓 와이드 롱 오버롤 멜빵 팬츠",
+        "price": "₩ 50,000",
+        "emphasis": "사계절템♥/데일리룩",
+        "description": "여유 있는 핏과 롱한 기장감\n귀여운 캥거루 포켓 포인트까지!\n사이드 버튼 디테일로 손쉬운 오픈 클로징\n실용성 있는 양 사이드포켓 디테일\n탄탄한 코튼 소재로 내구성이 뛰어나 오래도록 한결같은\n#헤이즈 포켓 와이드 롱 오버롤멜빵 팬츠",
+        "colorOptions": [
+          { "value": "1", "text": "Beige" },
+          { "value": "2", "text": "Ivory" }
+        ]
+      },
+      {
+        "id": 4,
+        "image": {
+          "src": "images/하의4.png",
+          "alt": "하의4"
+        },
+        "name": "쫀쫀이 스판 옆지퍼 A라인 여름 숏팬츠",
+        "price": "₩ 37,000",
+        "emphasis": "쫀쫀♥/몸매보정",
+        "description": "트레이닝 숏팬츠의 편안함에 슬랙스의 라인을 더해준\n#쫀쫀이 스판 옆지퍼 A라인 여름 숏팬츠\n군더더기 없는 일자 날씬핏!\n어떤 체형이 입어도 황금 비율로 만들어 주는 핏!\n어는 각도에서 봐도 완벽한 비율감\n언제 어디서든 극강의 편안함을 자랑하는 데일리 숏팬츠의 정석",
+        "colorOptions": [
+          { "value": "1", "text": "Black" }
+        ]
+      },
+      {
+        "id": 5,
+        "image": {
+          "src": "images/하의5.png",
+          "alt": "하의5"
+        },
+        "name": "미니멀한 디자인의\n 데일리 숏팬츠 pants",
+        "price": "₩ 50,000",
+        "emphasis": "사랑스러운♥/스웨이드 소재",
+        "description": " 부드럽고 시원한 터칭감에 은은한 스판끼\n밀도 있는 힘 있는 소재감으로 핏을 깔끔하게 연출\n데일리로 가볍게 착용하기 좋은 여름 숏 팬츠\n양 사이드 리얼 포켓으로 실용성 UP!\n반하이 웨스트 디자인 & 와이드 한 오버라인 & 세미 A라인 실루엣\n#미니멀한 디자인의 데일리 숏팬츠 pants",
+        "colorOptions": [
+          { "value": "1", "text": "Black" },
+          { "value": "2", "text": "Ivory" },
+          { "value": "3", "text": "Beige" }
+        ]
+      },
+      {
+        "id": 6,
+        "image": {
+          "src": "images/하의6.png",
+          "alt": "하의6"
+        },
+        "name": "페이지 스판 코튼 3부 쇼츠",
+        "price": "₩ 38,000",
+        "emphasis": "세련고급미♥/3부 기장",
+        "description": "비율 좋아 보이는 반하이웨스트\n다양한 스타일과 코디하기 좋은 일자핏\n다리가 훅 길어 보이는 3부 기장!\n깔끔한 제원단 싸개 단추 & 실용성 높여주는 단추 & 세련된 실루엣 연출 립포켓\n스판 3% 혼방으로 조이는 느낌 없이 편안하게 착용되는 코튼 원단\n#페이지 스판 코튼 3부 쇼츠",
+        "colorOptions": [
+          { "value": "1", "text": "Ivory" },
+          { "value": "2", "text": "Black" }
+        ]
+      },
+      {
+        "id": 7,
+        "image": {
+          "src": "images/하의7.png",
+          "alt": "하의7"
+        },
+        "name": "스무스 2기장 코튼 밴딩 와이드 카고 팬츠",
+        "price": "₩ 49,000",
+        "emphasis": "여름까지 쭉~♥/힙앤힙",
+        "description": "허리밴딩으로 슬림하고 편안하게\n깔끔하게 툭 떨어지는 스트레이트 와이드핏\n캐쥬얼한 시밀러룩으로 입어도 힙하고 예쁜!\n#스무스 2기장 코튼 밴딩 와이드 카고 팬츠\n세미크롭 기장이나 포인트가 있는 상의와 코디 강추!\n휘뚜루마뚜루 와이드 카고 팬츠~",
+        "colorOptions": [
+          { "value": "1", "text": "CreamBeige" },
+          { "value": "2", "text": "Pink" },
+          { "value": "3", "text": "Mint" },
+          { "value": "4", "text": "DeepBeige" },
+          { "value": "5", "text": "Charcoal" },
+          { "value": "6", "text": "Black" }
+        ]
+      },
+      {
+        "id": 8,
+        "image": {
+          "src": "images/하의8.png",
+          "alt": "하의8"
+        },
+        "name": "벤티 쿨링 썸머 밴딩 ITY 냉장고 팬츠 pants",
+        "price": "₩ 39,000",
+        "emphasis": "ITY 쿨링♥/풀밴딩",
+        "description": "더운 여름 필수템이 되어 줄 쿨링 팬츠\nITY원단으로 통풍성이 매우 우수해 시원~!\n쫀쫀한 밴딩으로 하루종일 편안한 착용감\n체형에 맞게 조절 가능한 스트링\n누구나 부담없이 예쁜 핏을 선사할 롱스트레이트 핏\n#벤티 쿨링 썸머 밴딩 ITY 냉장고 팬츠 pants♥",
+        "colorOptions": [
+            { "value": "1", "text": "Pink" },
+            { "value": "2", "text": "IndiBlue" },
+            { "value": "3", "text": "Black" }
+        ]
+      },
+      {
+        "id": 9,
+        "image": {
+          "src": "images/하의9.png",
+          "alt": "하의9"
+        },
+        "name": "시그니처 히든 밴딩 원핀턱 와이드 슬랙스",
+        "price": "₩ 46,500",
+        "emphasis": "데일리룩♥/체형커버",
+        "description": "데일리로 가장 쉽게 손이 갈 수 있는 베이직한 디자인\n편안한 칫을 선삼함과 동시에 체형커버의 와이드 슬랙스!\n시간과 장소에 구애받지 않는\n#시그니처 히든 밴딩 원핀턱 와이드 슬랙스\n심플한 원픽턴 디테일과 간결한 쉐입\n히든 버클로 깔끔한 클로징!",
+        "colorOptions": [
+          { "value": "1", "text": "Cream" },
+          { "value": "2", "text": "Beige" },
+          { "value": "3", "text": "Pink" },
+          { "value": "4", "text": "ChocoBrown" },
+          { "value": "5", "text": "Black" }
+        ]
+      },
+      {
+        "id": 10,
+        "image": {
+          "src": "images/하의10.png",
+          "alt": "하의10"
+        },
+        "name": "올데이 YKK 히든밴딩 부츠컷 스판 데님 진",
+        "price": "₩ 58,000",
+        "emphasis": "스판데님♥/군살커버핏",
+        "description": "슬림해 보이는 핏과 하루 종일 입어도 편안한 착용감\n슬림한 롱 부트컷 디자인으로 길어보이는 다리 라인\n오랜 시간 입고 있어도 허리가 숨쉬는 히든밴딩 디테일!\n내츄럴한 느낌을 주는 밑단 컷팅 디테일!\n#올데이 YKK 히든밴딩 부츠컷 스판 데님 진\n텁텁하지 않고 산뜻한 두께에 워싱을 통해 더 유연하게 완성된 데님팬츠",
+        "colorOptions": [
+          { "value": "1", "text": "LightBlue" }
+        ]
+      },
+      {
+        "id": 11,
+        "image": {
+          "src": "images/하의11.png",
+          "alt": "하의11"
+        },
+        "name": "아우라 투핀턱 와이드 슬랙스",
+        "price": "₩ 59,000",
+        "emphasis": "찰랑찰랑♥/입문용",
+        "description": "발등까지 떨어지는 롱한 기장감\n와이드한 핏감이 체형 구애X\n가을 무드에 어울리는 컬러 구성\n너무 찰랑이지 않는 적당한 중량감의 패브릭\n투핀턱 디테일로 부해보이지 않게 라인 정돈!\n#아우라 투핀턱 와이드 슬랙스",
+        "colorOptions": [
+          { "value": "1", "text": "DeepBeige" },
+          { "value": "2", "text": "Cream" },
+          { "value": "3", "text": "Yellow" },
+          { "value": "4", "text": "Black" }
+        ]
+      },
+      {
+        "id": 12,
+        "image": {
+          "src": "images/하의12.png",
+          "alt": "하의12"
+        },
+        "name": "올데이 트레이닝 쫀쫀 밴딩 슬랙스",
+        "price": "₩ 32,000",
+        "emphasis": "만능사계절템♥/전정기방지O",
+        "description": "하체라인 완벽 커버, 자동 다이어트 보정핏\n언제 어디서든 완벽한 핏감을 자랑하는\n#올데이 트레이닝 쫀쫀 밴딩 슬랙스\n어떤 체형이 입어도 원래 날씬한 듯, 황금비율 보정핏!\n포켓 도드라 지지 않게 부드러운 얇은 원단\n매끄럽고 부드러운 촉감으로 극강의 편안한 선사",
+        "colorOptions": [
+          { "value": "1", "text": "Black" }
+        ]
+      }
+    ],
+    "form": {
+      "method": "post",
+      "action": "payment.html",
+      "div": {
+        "class": "select d-flex",
+        "select": [
+          {
+            "class": "form-select",
+            "name": "size",
+            "aria-label": "사이즈",
+            "option": [
+              { "selected": true, "text": "사이즈" },
+              { "value": "1", "text": "S" },
+              { "value": "2", "text": "M" },
+              { "value": "3", "text": "L" }
+            ]
+          },
+          {
+            "class": "form-select",
+            "name": "number",
+            "aria-label": "수량",
+            "option": [
+              { "selected": true, "text": "수량" },
+              { "value": "1", "text": "1" },
+              { "value": "2", "text": "2" },
+              { "value": "3", "text": "3" }
+            ]
+          }
+        ]
+      },
+      "button": {
+        "type": "submit",
+        "name": "purchase",
+        "class": "credit",
+        "text": "구매하기"
+      }
+    }
+  }
+  
