@@ -14,8 +14,8 @@
             { "value": "1", "text": "Cream" },
             { "value": "2", "text": "Beige" },
             { "value": "3", "text": "Black" },
-            { "value": "1", "text": "SkyBlue" },
-            { "value": "2", "text": "Gray" }
+            { "value": "4", "text": "SkyBlue" },
+            { "value": "5", "text": "Gray" }
         ]
       },
       {
@@ -70,7 +70,7 @@
         "name": "미니멀한 디자인의\n 데일리 숏팬츠 pants",
         "price": "₩ 50,000",
         "emphasis": "사랑스러운♥/스웨이드 소재",
-        "description": " 부드럽고 시원한 터칭감에 은은한 스판끼\n밀도 있는 힘 있는 소재감으로 핏을 깔끔하게 연출\n데일리로 가볍게 착용하기 좋은 여름 숏 팬츠\n양 사이드 리얼 포켓으로 실용성 UP!\n반하이 웨스트 디자인 & 와이드 한 오버라인 & 세미 A라인 실루엣\n#미니멀한 디자인의 데일리 숏팬츠 pants",
+        "description": "부드럽고 시원한 터칭감에 은은한 스판끼\n밀도 있는 힘 있는 소재감으로 핏을 깔끔하게 연출\n데일리로 가볍게 착용하기 좋은 여름 숏 팬츠\n양 사이드 리얼 포켓으로 실용성 UP!\n반하이 웨스트 디자인 & 와이드 한 오버라인 & 세미 A라인 실루엣\n#미니멀한 디자인의 데일리 숏팬츠 pants",
         "colorOptions": [
           { "value": "1", "text": "Black" },
           { "value": "2", "text": "Ivory" },

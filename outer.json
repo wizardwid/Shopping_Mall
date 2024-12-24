@@ -1,0 +1,240 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "image": {
+          "src": "images/아우터1.png",
+          "alt": "아우터1"
+        },
+        "name": "타로 골지 버튼 브이넥 가디건",
+        "price": "₩ 40,000",
+        "emphasis": "간절기룩♥/여리핏",
+        "description": "옷장 속 나시, 티셔츠, 워피스에 톡\n베이직한 이너에도 요 가디건 하나면 끝!\n완성도 높은 룩이 가능한 활용도 만점 아이템\n#타로 골지 버튼 브이넥 가디건\n간절기 시즌 낮에는 가볍게 들고 다니기 좋고\n쌀쌀한 밤 날씨엔 톡 걸치기 좋은 휘뚜루마뚜루 가디건!",
+        "colorOptions": [
+            { "value": "1", "text": "Ivory" },
+            { "value": "2", "text": "Pink" },
+            { "value": "3", "text": "Beige" },
+            { "value": "4", "text": "SkyBlue" },
+            { "value": "5", "text": "Gray" },
+            { "value": "6", "text": "Black" }
+        ]
+      },
+      {
+        "id": 2,
+        "image": {
+          "src": "images/아우터2.png",
+          "alt": "아우터2"
+        },
+        "name": "블렌드 금장 라운드 린넨 반팔 트위드 자켓",
+        "price": "₩ 89,000",
+        "emphasis": "만념템♥/여리여리",
+        "description": "격식있는 자리 뿐만 아닌 캐주얼하게도 잘 입어지고\n데님이나 슬랙스, 스커트 등 다양한 코디로 활용되고 있는\n#블렌드 금장 라운드 린넨 반팔 트위드 자켓\n데일리한 디자인 속 트위드 자켓만의 고급스러움 추가!\n더운 날씨에도 부담 없이 입을 수 있는는\n하이퀄리티 여름 트위드 자켓",
+        "colorOptions": [
+          { "value": "1", "text": "Pink" },
+          { "value": "2", "text": "Black" }
+        ]
+      },
+      {
+        "id": 3,
+        "image": {
+          "src": "images/아우터3.png",
+          "alt": "아우터3"
+        },
+        "name": "엘로이 긴팔 가디건",
+        "price": "₩ 28,000",
+        "emphasis": "장마룩♥/루즈핏",
+        "description": " 촘촘한 짜임의 얇은 여름 니트 가디건\n세미 크롭 기장으로 다리가 길어 보이는 효과!\n원단 컬러에 맞춰 염색한 섬세한 단추 디테일\n올풀림을 방지하는 끝단 시보리 디테일\n통기성 좋고 자위선 막는 한여름 살안타템\n#엘로이 긴팔 가디건",
+        "colorOptions": [
+            { "value": "1", "text": "Beige" },
+            { "value": "2", "text": "Pink" },
+            { "value": "3", "text": "SkyBlue" },
+            { "value": "4", "text": "Black" }
+        ]
+      },
+      {
+        "id": 4,
+        "image": {
+          "src": "images/아우터4.png",
+          "alt": "아우터4"
+        },
+        "name": "마로네 린넨 라이크 자켓 스커트 셋업",
+        "price": "₩ 120,000",
+        "emphasis": "가성비룩♥/셋업",
+        "description": "고급스럽고 잔잔한 린넨 결감이 돋보이는 원단\n따로, 또 같이 자켓 + 스커트 구성의 가성비 갑\n과하지 않은 어깨패드 / 세미크롭 기장 / 잘록한 허리라인\n#마로네 린넨 라이크 자켓 스커트 셋업\n린넨의 단점을 보안하기 위해 린넨라이크 원단 사용!\n우수한 통기성 & 쾌적한 착용감",
+        "colorOptions": [
+          { "value": "1", "text": "Black" },
+          { "value": "2", "text": "GrayBeige" }
+        ]
+      },
+      {
+        "id": 5,
+        "image": {
+          "src": "images/아우터5.png",
+          "alt": "아우터5"
+        },
+        "name": "포피 레글런 니트 볼레로 가디건",
+        "price": "₩ 35,000",
+        "emphasis": "살안타템♥/여리핏",
+        "description": " 볼레로만의 매력은 유지한채\n뒷부분이 완전 짧았던 다른 상품들에 비해 안정감있는 기장!\n어떤 상의나 원피스에도 매치하기 쉽고\n어디서라도 쓱- 꺼내 입기 좋은\n#포피 레글런 니트 볼레로 가디건\n톡톡하고 도톰한 니트 짜임 / 스판 함유로 편한 텐션감",
+        "colorOptions": [
+          { "value": "1", "text": "Ivory" },
+          { "value": "2", "text": "Pink" },
+          { "value": "3", "text": "SkyBlue" },
+          { "value": "4", "text": "Black" }
+        ]
+      },
+      {
+        "id": 6,
+        "image": {
+          "src": "images/아우터6.png",
+          "alt": "아우터6"
+        },
+        "name": "로아 여름 트위드 셋업",
+        "price": "₩ 229,000",
+        "emphasis": "파스텔톤♥/하이퀄리티",
+        "description": "기본적으로 여유로운 자켓 핏\n단정한 라운드넥 디자인으로 단독 입기 가능!\n깔끔한 H라인 핏의 롱 스커트\n페미닌한 무드를 더해주는 플라워 버튼 디테일\n화사한 파스텔 컬러감에 맞춘 시원해 보이는 실버 단추\n#로아 여름 트위드 셋업",
+        "colorOptions": [
+          { "value": "1", "text": "Yellow" },
+          { "value": "2", "text": "Lavender" }
+        ]
+      },
+      {
+        "id": 7,
+        "image": {
+          "src": "images/아우터7.png",
+          "alt": "아우터7"
+        },
+        "name": "로제 트위드 퍼프 세미크롭 하프 자켓",
+        "price": "₩ 73,000",
+        "emphasis": "넘사벽 색감♥/봉봉핏",
+        "description": "사랑스럽고 봉봉한 퍼프 소매라인\n골반 라인에 걸쳐지는 세미크롭 기장\n생기 있는 색감으로 포인트를 유연한 텍스쳐로 편안한\n#로제 트위드 퍼프 세미크롭 하프 자켓\n라운드넥으로 안정적이라 단독 착용도 가능!\n봉봉한 퍼프 소매 / 앤틱한 영롱 무드 버튼",
+        "colorOptions": [
+          { "value": "1", "text": "Yellow" },
+          { "value": "2", "text": "Pink" }
+        ]
+      },
+      {
+        "id": 8,
+        "image": {
+          "src": "images/아우터8.png",
+          "alt": "아우터8"
+        },
+        "name": "벨마 썸머 퍼프 트위드 자켓",
+        "price": "₩ 79,000",
+        "emphasis": "100% 폴리♥/세미크롭",
+        "description": "자연스럽게 떨어지는 세미 크롭기장 & 스탠다드 핏\n꼼꼼한 바이어스 마감으로 퀄링티 UP!\n안감을 생략하여 시원한 착용감\n노카라 라운드 넥 / 어깨 핀턱 셔링 디테일 / 세미 크롭 기장\n부드러운 텍스터와 가벼운 착용감\n#벨마 썸머 퍼프 트위드 자켓",
+        "colorOptions": [
+            { "value": "1", "text": "White" },
+            { "value": "2", "text": "Black" }
+        ]
+      },
+      {
+        "id": 9,
+        "image": {
+          "src": "images/아우터9.png",
+          "alt": "아우터9"
+        },
+        "name": "모네 라운드넥 V넥 니트 여름 가디건",
+        "price": "₩ 32,000",
+        "emphasis": "이태리코튼♥/V넥",
+        "description": "시원한 여름 분위기 가득 느껴지는 컬러\n간절기부터 더운 여름까지 입기 좋은 적당한 두께감\n단독으로, 레이어드로 연출 가능한 만능템!\n#모네 라운드넥 V넥 니트 여름 가디건\n여유감이 느껴지는 핏\n부드러운 V넥 라인으로 여성스러운 실루엣 연출",
+        "colorOptions": [
+          { "value": "1", "text": "Yellow" },
+          { "value": "2", "text": "Ivory" },
+          { "value": "3", "text": "Beige" },
+          { "value": "4", "text": "Pink" },
+          { "value": "5", "text": "Purple" },
+          { "value": "6", "text": "IceBlue" },
+          { "value": "7", "text": "Gray" },
+          { "value": "8", "text": "Black" },
+          { "value": "9", "text": "Lavender" }
+        ]
+      },
+      {
+        "id": 10,
+        "image": {
+          "src": "images/아우터10.png",
+          "alt": "아우터10"
+        },
+        "name": "아리스 테일러드 반팔 트위드 자켓",
+        "price": "₩ 98,000",
+        "emphasis": "여름자켓♥/하객룩",
+        "description": "까슬거림 & 구김 없이 탄탄하게\n격식 있는 자리나 캐주얼한 무드로 다양한 코디 가능한\n#아리스 테일러드 반팔 트위드 자켓\n결감이 느껴지는 서글함 짜임 & 시원한 트위드 원단으로\n깔끔하고 고급스러운 분위기 연출!/n가장 데일리하면서 세련된 멋",
+        "colorOptions": [
+          { "value": "1", "text": "CreamIvory" },
+          { "value": "2", "text": "Black" }
+        ]
+      },
+      {
+        "id": 11,
+        "image": {
+          "src": "images/아우터11.png",
+          "alt": "아우터11"
+        },
+        "name": "라벤 부클 V넥 세미크롭 가디건",
+        "price": "₩ 28,000",
+        "emphasis": "여름 가디건♥/여리핏",
+        "description": "봄부터 여름, 가을까지~\n포근한 부클 원시로 여리여리한 핏!\n바람 송송 통해 레이어드는 물론 단독 착용도 가능\n한여름에도 가볍고 시원하게 걸쳐주기 좋은 부클 가디건\n세미크롭 기장감으로 비율이 좋아 보이는 효과까지\n#라벤 부클 V넥 세미크롭 가디건",
+        "colorOptions": [
+            { "value": "1", "text": "Ivory" },
+            { "value": "2", "text": "Pink" },
+            { "value": "3", "text": "Beige" },
+            { "value": "4", "text": "SkyBlue" },
+            { "value": "5", "text": "Green" },
+            { "value": "6", "text": "Black" },
+            { "value": "7", "text": "Yellow" }
+        ]
+      },
+      {
+        "id": 12,
+        "image": {
+          "src": "images/아우터12.png",
+          "alt": "아우터12"
+        },
+        "name": "나폴리 밑단 스트링 바람막이 점퍼",
+        "price": "₩ 65,000",
+        "emphasis": "휘뚤마뚤템♥/바다룩",
+        "description": "바디라인을 따라 여리하게 떨어지는 여유있는 핏감\n밑단 스트링 디테일로 원하는 실루엣 연출 가능!\n스탠다드한 카라 디자인으로 캐주얼한 데일리 무드\n색마다 각기 다른 버튼색으로 포인트\n힙하면서도 여성스러운 봄 여름 시즌 휘뚤마뚤템\n#나폴리 밑단 스트링 바람막이 점퍼",
+        "colorOptions": [
+            { "value": "1", "text": "Ivory" },
+            { "value": "2", "text": "Pink" }
+        ]
+      }
+    ],
+    "form": {
+      "method": "post",
+      "action": "payment.html",
+      "div": {
+        "class": "select d-flex",
+        "select": [
+          {
+            "class": "form-select",
+            "name": "size",
+            "aria-label": "사이즈",
+            "option": [
+              { "selected": true, "text": "사이즈" },
+              { "value": "1", "text": "Free" }
+            ]
+          },
+          {
+            "class": "form-select",
+            "name": "number",
+            "aria-label": "수량",
+            "option": [
+              { "selected": true, "text": "수량" },
+              { "value": "1", "text": "1" },
+              { "value": "2", "text": "2" },
+              { "value": "3", "text": "3" }
+            ]
+          }
+        ]
+      },
+      "button": {
+        "type": "submit",
+        "name": "purchase",
+        "class": "credit",
+        "text": "구매하기"
+      }
+    }
+  }
+  
