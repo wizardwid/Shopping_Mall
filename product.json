@@ -1,0 +1,231 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "image": {
+          "src": "images/상품목록1.png",
+          "alt": "상품목록1"
+        },
+        "name": "머피 스트라이프 끈 나시",
+        "price": "₩ 30,000",
+        "emphasis": "봄여름필수템♥/앞뒤착용O",
+        "description": "기본 나시는 많은데, 색다른 나시가 필요하다면?\n단독으로는 물론 베이직한 셔츠 속 이너로도\n톡톡하게 포인트 역할을 해줄 #머피 끈 나시\n담백한 스트라이프 디자인에\n다채로운 7가지 컬러가 어우러져\n소장 가치까지 높은 #머피 끈 나시!",
+        "colorOptions": [
+            { "value": "1", "text": "Red" },
+            { "value": "2", "text": "Green" },
+            { "value": "3", "text": "Black" }
+        ]
+      },
+      {
+        "id": 2,
+        "image": {
+          "src": "images/상품목록2.png",
+          "alt": "상품목록2"
+        },
+        "name": "메리엇 프릴 밴딩 뷔스티에 롱 원피스",
+        "price": "₩ 62,500",
+        "emphasis": "청순퓨어템♥/비침걱정↓",
+        "description": "바스트 스트랩 디자인으로\n여성스러운 브이넥 라인 또는 리본 묶음으로\n러블리한 투웨이 연출 + 짱짱한 밴딩\n롱한 기장감으로 군살은 톡톡하게 커버\n밀도 높은 탄탄한 코튼 100원단!\n#메리엇 프릴 밴딩 뷔스티에 롱 원피스",
+        "colorOptions": [
+          { "value": "1", "text": "Ivory" },
+          { "value": "2", "text": "Black" }
+        ]
+      },
+      {
+        "id": 3,
+        "image": {
+          "src": "images/상품목록3.png",
+          "alt": "상품목록3"
+        },
+        "name": "프레니 골드 스틱 브이넥 트위드 반팔 자켓",
+        "price": "₩ 90,000",
+        "emphasis": "고급미♥/링클프리",
+        "description": "가볍고 구김 걱정이 적은 링클 가공 패브릭\n은은한 파스텔 색감에 여리여리한 디자인\n은은한 결감이 느껴지는 트위드 원단!\n쾌적하고 시원한 착용감\n너무 길거나 잛지 않은 세미크롭 기장감\n#프레니 골드 스틱 브이넥 트위드 반팔 자켓",
+        "colorOptions": [
+            { "value": "1", "text": "Cream" },
+            { "value": "2", "text": "Pink" },
+            { "value": "3", "text": "Black" }
+        ]
+      },
+      {
+        "id": 4,
+        "image": {
+          "src": "images/상품목록4.png",
+          "alt": "상품목록4"
+        },
+        "name": "어스 2버전 스트링 바스락 점퍼",
+        "price": "₩ 30,000",
+        "emphasis": "휘뚤마뚤템♥/살안타템",
+        "description": "바스락 점퍼의 가볍고 편안한 착용감과\n휘뚜루마뚜루 가벼운 휴대성을 더해주고\n후드의 캐주얼한 느낌과 카라 점퍼의 세련된 무드!\n낭낭한 루즈밋으로 군살 커버\n세미클롭 기장으로 조화로운 비율감 연출\n#어스 2버전 스트링 바스락 점퍼",
+        "colorOptions": [
+          { "value": "1", "text": "Ivory" },
+          { "value": "2", "text": "Pink" },
+          { "value": "3", "text": "Black" },
+          { "value": "4", "text": "SkyBlue" },
+          { "value": "5", "text": "Gray" }
+        ]
+      },
+      {
+        "id": 5,
+        "image": {
+          "src": "images/상품목록5.png",
+          "alt": "상품목록5"
+        },
+        "name": "알렌 플라워 잔꽃 미니 끈 나시 원피스",
+        "price": "₩ 68,000",
+        "emphasis": "여름여행룩♥/플로럴",
+        "description": "잔잔한 플라워 패턴으로 러블리한\n#어알렌 플라워 잔꽃 미니 끈 나시 원피스\n자연스럽게 연출되는 세미 카울네 디자인으로\n트렌디하면서 부담스럽지 않은 포인트!\n여름 날씨에 활용도 높은 쉬폰 소재감으로 쾌적한 착용감\n여행지 바캉스룩은 물론 피크닉룩, 데일룩으로도 추천~♥",
+        "colorOptions": [
+          { "value": "1", "text": "Black" }
+        ]
+      },
+      {
+        "id": 6,
+        "image": {
+          "src": "images/상품목록6.png",
+          "alt": "상품목록6"
+        },
+        "name": "데이진 썸머 워싱 테니스 스커트",
+        "price": "₩ 65,000",
+        "emphasis": "여름데님♥/체형커버",
+        "description": "한층 가벼워진 날씨에 손이 자주 가게 될 데님 스커트♥\n플리츠라인으로 바랄함과 특색 있는 아웃핏의 데님 스커트!\n키치하면서도 독특한 디테일에\n어느 룩에도 쉽게 스며드는 블루 컬러\n뛰어난 내구성 / 드라이한 터치감 / 린넨 느낌의 터치감\n#데이진 썸머 워싱 테니스 스커트",
+        "colorOptions": [
+          { "value": "1", "text": "Blue" }
+        ]
+      },
+      {
+        "id": 7,
+        "image": {
+          "src": "images/상품목록7.png",
+          "alt": "상품목록7"
+        },
+        "name": "노블 진주 목걸이",
+        "price": "₩ 18,000",
+        "emphasis": "포인트템♥/볼드진주",
+        "description": "데일리하게 어디에나 포인트 주기 좋은\n#볼드 진주 목걸이\n어떤 아이템과도 어떤 룩과도 여기저기 다 어울리는 목걸이!\n적당한 알크기로 과한 느낌 없이\n레터링 팬던트가 포인트가 되는!\n#볼드 진주 목걸이",
+        "colorOptions": [
+          { "value": "1", "text": "Red" },
+          { "value": "2", "text": "Black" }
+        ]
+      },
+      {
+        "id": 8,
+        "image": {
+          "src": "images/상품목록8.png",
+          "alt": "상품목록8"
+        },
+        "name": "로에드 시스루 칼라 블라우스",
+        "price": "₩ 50,000",
+        "emphasis": "다채로운 컬러♥/시스루 광택O",
+        "description": "베이직 컬러부터 포인트 컬러까지\n모든 취향을 고려해 준비한 8까지 컬러웨이\n퍼프 숄더 디테일과 은은한 시스루 패브릭은 그대로\n여름에 입기 좋도록 반팔 기장 추가!\n부담스럽지 않은 시스루로 고급지고 우아해 보이는\n#로에드 시스루 칼라 블라우스",
+        "colorOptions": [
+            { "value": "1", "text": "Cream" },
+            { "value": "2", "text": "Pink" },
+            { "value": "3", "text": "Purple" },
+            { "value": "4", "text": "SkyBlue" },
+            { "value": "5", "text": "Navy" }
+        ]
+      },
+      {
+        "id": 9,
+        "image": {
+          "src": "images/상품목록9.png",
+          "alt": "상품목록9"
+        },
+        "name": "다이아 펀칭 프릴 여리핏 반팔 티셔츠",
+        "price": "₩ 30,000",
+        "emphasis": "청순글램♥/여리핏O",
+        "description": "바디의 볼륨을 은은하게 살려주는 글램핏\n너무 짧지 않아 넣어 입기 좋은 적당한 기장\n유연하고 텐션감 높은 코튼 소재!\n쾌적한 착용감과 러블리한 포인트를 주는\n#다이아 펀칭 프릴 여리핏 반팔 티셔츠\n다채로운 컬러 구성♥",
+        "colorOptions": [
+          { "value": "1", "text": "Yellow" },
+          { "value": "2", "text": "Pink" },
+          { "value": "3", "text": "CherryPink" },
+          { "value": "4", "text": "SkyBlue" },
+          { "value": "5", "text": "Purple" },
+          { "value": "6", "text": "LightGreen" }
+        ]
+      },
+      {
+        "id": 10,
+        "image": {
+          "src": "images/상품목록10.png",
+          "alt": "상품목록10"
+        },
+        "name": "멜팅 소프트 찰랑 와이드핏 밴딩 슬랙스",
+        "price": "₩ 50,000",
+        "emphasis": "여름까지 쭉~♥/활용도 ",
+        "description": "봄 여름 내내 교복처럼 매일 입게 될\n#멜팅 소프트 찰랑 와이드핏 밴딩 슬랙스\n깔끔하게 툭 떨어지는 스트레이드 와이드핏!\n스판 5%의 편안한 신축성!\n넓고 탄탄한 허리 밴딩으로 깨끗한 허리 라인\n안정감있게 예쁜 롱기장감♥",
+        "colorOptions": [
+          { "value": "1", "text": "Cream" },
+          { "value": "2", "text": "Beige" },
+          { "value": "3", "text": "Black" }
+        ]
+      },
+      {
+        "id": 11,
+        "image": {
+          "src": "images/상품목록11.png",
+          "alt": "상품목록11"
+        },
+        "name": "아이스 쿨링 스트랩 원피스",
+        "price": "₩ 43,000",
+        "emphasis": "여름필수템♥/냉장고 원단O",
+        "description": "덥고 습한 날씨가 지속될 땐\n#아이스 쿨링 스트랩 원피스\n냉장고 원단으로 제작되어 입는 순간 체감 온도 -7도!\n톡톡한 소재감으로 비침 없는 원단\n치즈처럼 쭉쭉 늘어나는 스판성 & 뛰어난 복원력\n중량감있게 떨어지는 군살 커버 원단",
+        "colorOptions": [
+            { "value": "1", "text": "Black" }
+        ]
+      },
+      {
+        "id": 12,
+        "image": {
+          "src": "images/상품목록12.png",
+          "alt": "상품목록12"
+        },
+        "name": "바닐라 배색 니트 버킷햇",
+        "price": "₩ 25,000",
+        "emphasis": "봄여름필수템♥/앞뒤착용O",
+        "description": "데일리룩에 은은한 포인트가 되어줄\n여름 니트 소재의 #바닐라 배색 니트 버킷햇\n가볍게 눌러쓰기 좋은 쉐입에 챙이 없는 디자인!\n탄탄함을 더해줄 코튼이 블렌딩되어\n안정감 있는 쉐입 연출!\n내장된 스트링 조절하여 머리 둘레에 맞춰 착용 가능",
+        "colorOptions": [
+            { "value": "1", "text": "Ivory" },
+            { "value": "2", "text": "Beige" },
+            { "value": "3", "text": "Black" }
+        ]
+      }
+    ],
+    "form": {
+      "method": "post",
+      "action": "payment.html",
+      "div": {
+        "class": "select d-flex",
+        "select": [
+          {
+            "class": "form-select",
+            "name": "size",
+            "aria-label": "사이즈",
+            "option": [
+              { "selected": true, "text": "사이즈" },
+              { "value": "1", "text": "Free" }
+            ]
+          },
+          {
+            "class": "form-select",
+            "name": "number",
+            "aria-label": "수량",
+            "option": [
+              { "selected": true, "text": "수량" },
+              { "value": "1", "text": "1" },
+              { "value": "2", "text": "2" },
+              { "value": "3", "text": "3" }
+            ]
+          }
+        ]
+      },
+      "button": {
+        "type": "submit",
+        "name": "purchase",
+        "class": "credit",
+        "text": "구매하기"
+      }
+    }
+  }
+  
