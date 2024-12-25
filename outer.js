@@ -141,6 +141,21 @@ document.addEventListener("DOMContentLoaded", function() {
             productSection.appendChild(divElement);  // 이미지 부분 추가
             productSection.appendChild(detailsElement);  // 세부 정보 추가
 
+            // 장바구니 아이콘 추가
+            const cartIconContainer = document.createElement("div");
+            cartIconContainer.className = "cart-icon";
+
+            const cartLink = document.createElement("a");
+            cartLink.href = "/cart.html";
+            cartLink.title = "장바구니로 이동";
+
+            const cartIcon = document.createElement("i");
+            cartIcon.className = "fa fa-shopping-cart"; // Font Awesome 클래스 사용
+
+            cartLink.appendChild(cartIcon);
+            cartIconContainer.appendChild(cartLink);
+            detailsElement.appendChild(cartIconContainer);
+
             // 'product-detail'에 추가
             productDetailElement.appendChild(productSection);
         })
