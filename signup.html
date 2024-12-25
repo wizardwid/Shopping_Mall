@@ -13,7 +13,7 @@
             <h2>Sign up</h2>
             <a class="navbar-brand" href="index.html">SUMBLY</a>
         </header>
-        <form method="post" action="#" id="signup-form">
+        <form method="post" action="signup.php" id="signup-form">
             <input type="email" name="email" id="email" placeholder="Email">
             <div class="invalid-feedback" id="emailError" style="display: none; color: rgb(72, 56, 126); position: relative; top: -15px;">이메일을 입력해주세요.</div>
 
@@ -24,7 +24,7 @@
             <input type="text" name="username" id="username" placeholder="UserName">
             <div class="invalid-feedback" id="usernameError" style="display: none; color: rgb(72, 56, 126); position: relative; top: -15px;">이름을 입력해주세요.</div>
 
-            <input type="id" name="id" id="id" placeholder="Id">
+            <input type="text" name="id" id="id" placeholder="Id">
             <div class="invalid-feedback" id="idError" style="display: none; color: rgb(72, 56, 126); position: relative; top: -15px;">아이디를 입력해주세요.</div>
 
             <input type="password" name="password" id="password" placeholder="Password">
@@ -36,11 +36,12 @@
             <label for="terms-check">
                 <input type="checkbox" name="terms" id="terms-check"> 약관에 동의합니다
             </label>
+            
             <div class="invalid-feedback" id="termsError" style="display: none; color: rgb(72, 56, 126); position: relative; top: 0px;">이용 약관에 관한 안내를 동의해주세요.</div>
             <input type="submit" name="signUp" value="Signup">
         </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="signup.js"></script>
+    <!-- <script src="signup.js"></script> -->
 </body>
 </html>
