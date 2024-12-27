@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", function() {
             cartIconContainer.className = "cart-icon";
 
             const cartLink = document.createElement("a");
-            cartLink.href = "/cart.html";
+            cartLink.href = "/cart.php";
             cartLink.title = "장바구니로 이동";
 
             const cartIcon = document.createElement("i");
